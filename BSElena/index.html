@@ -130,8 +130,8 @@
 		<div class="menu__wrapper">
 			<ul class="menu__ul">
 				<li class="menu__li"><a class="menu__a" href="#services">Услуги</a></li>
-				<li class="menu__li"><a class="menu__a" href="#">О салоне</a></li>
-				<li class="menu__li"><a class="menu__a" href="#">Записаться</a></li>
+				<li class="menu__li"><a class="menu__a" href="#about">О салоне</a></li>
+				<li class="menu__li"><a class="menu__a" href="#form">Записаться</a></li>
 				<li class="menu__li"><a class="menu__a" href="#">Отзывы</a></li>
 				<li class="menu__li"><a class="menu__a" href="#">Мастера</a></li>
 				<li class="menu__li"><a class="menu__a" href="#">Контакты</a></li>
@@ -398,6 +398,56 @@
 			</div><!-- Конец второго слайда -->
 
 		</div>
+
+	</section>
+
+	<section class="about" id="about">
+		
+		<div class="about__content">
+			<div class="about__content-wrapper">
+				<h2 class="about__title">О салоне</h2>
+				<p class="about__text--1">Салон открылся в 1997 году и, благодаря<br>домашней атмосфере и индивидуальному<br>подходу, пережил многое и многих. В салоне<br>нет перегламуреных и пафосных интерьеров.</p>
+				<p class="about__text--2">Ваши просьбы всегда находят ответ без<br>навязывания лишних услуг. К вам не будут<br>относится как к безликой серой массе,<br>потому что в каждом человеке мы видим<br>личность.</p>
+			</div>
+		</div>
+
+		<div class="about__slider">
+			<div class="about__item  about__item--1"></div>
+			<div class="about__item  about__item--2"></div>
+			<div class="about__item  about__item--3"></div>
+			<div class="about__item  about__item--4"></div>
+			<div class="about__item  about__item--5"></div>
+			<div class="about__item  about__item--6"></div>
+		</div>
+
+	</section>
+
+	<section class="form" id="form">
+		
+		<form action="" class="form__form">
+			<div class="form__thanks"><span class="form__span">Спасибо за заявку!</span></div>
+			<h2 class="form__title">Записаться</h2>
+			<p class="form__text">
+				Получите 10% скидку на первое посещение,<br>назвав менеджеру кодовое слово "Бабочка".
+			</p>
+			<!-- Hidden Required Fields -->
+			<input type="hidden" name="project_name" value="Elena Beauty Salon">
+			<input type="hidden" name="admin_email" value="B-S-Elena@ya.ru">
+			<input type="hidden" name="form_subject" value="Заявка с сайта">
+			<!-- END Hidden Required Fields -->
+			<input class="form__input" type="text" name="Name" placeholder="Ваше имя..." required><br>
+			<input class="form__input" type="text" name="Phone" placeholder="Ваш телефон..."><br>
+			<select class="form__select" name="service" >
+				<option class="form__option">Парикмахерский сервис</option>
+				<option class="form__option">Косметические процедуры</option>
+				<option class="form__option">Косметический уход по телу</option>
+				<option class="form__option">Ногтевой сервис</option>
+				<option class="form__option">Лечение волос</option>
+				<option class="form__option">Эстетическое удаление волос</option>
+				<option class="form__option">Вертикальный солярий</option>
+			</select>
+			<button class="form__button button">Отправить</button>
+		</form>
 
 	</section>
 
