@@ -2793,7 +2793,6 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 50px;
   font-weight: 500;
   font-size: 18px;
   color: #fff; }
@@ -2802,7 +2801,8 @@ body {
     top: 50px;
     left: 120px;
     height: 50px;
-    line-height: 50px; }
+    line-height: 50px;
+    font-size: 2vh; }
   .outline__logo {
     position: absolute;
     top: 50px;
@@ -2812,29 +2812,33 @@ body {
             transform: translateX(-50%); }
   .outline__mail {
     position: absolute;
-    left: -105px;
+    width: 500px;
+    left: 50px;
     top: 50%;
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
-            transform: translateY(-50%); }
+            transform: translateY(-50%);
+    font-size: 2vh;
+    display: none; }
     .outline__mail-wrapper {
       -webkit-transform: rotate(-90deg);
           -ms-transform: rotate(-90deg);
               transform: rotate(-90deg); }
     .outline__mail-1 {
-      margin-right: 40px; }
+      margin-right: 4vh; }
   .outline__social {
     position: absolute;
     padding: 0;
     margin: 0;
     width: 20px;
     left: 10px;
-    bottom: 40px; }
+    bottom: 40px;
+    font-size: 2vh; }
     .outline__social-ul {
       list-style: none; }
     .outline__social-li {
       width: 20px;
-      margin-top: 30px;
+      margin-top: 3vh;
       text-align: center; }
     .outline__social-a {
       outline: none;
@@ -2851,33 +2855,18 @@ body {
     left: 50%;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
-            transform: translateX(-50%); }
+            transform: translateX(-50%);
+    font-size: 2vh; }
   .outline__time {
     position: absolute;
     bottom: 50px;
-    right: 50px; }
+    right: 50px;
+    font-size: 2vh; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 
-/* Medium Devices, Desktops */
-
 /* Small Devices, Tablets */
-
-/* Extra Small Devices, Phones */
-
-/* Custom, iPhone Retina */
-
-/*==========  Mobile First  ==========*/
-/* Custom, iPhone Retina */
-
-/* Extra Small Devices, Phones */
-
-/* Small Devices, Tablets */
-
-/* Medium Devices, Desktops */
-
-/* Large Devices, Wide Screens */
 
 .section {
   margin: 0;
@@ -2900,28 +2889,6 @@ body {
     height: 100%;
     width: 50%;
     background-color: #fda5b1; }
-
-/*==========  Desktop First  ==========*/
-/* Large Devices, Wide Screens */
-
-/* Medium Devices, Desktops */
-
-/* Small Devices, Tablets */
-
-/* Extra Small Devices, Phones */
-
-/* Custom, iPhone Retina */
-
-/*==========  Mobile First  ==========*/
-/* Custom, iPhone Retina */
-
-/* Extra Small Devices, Phones */
-
-/* Small Devices, Tablets */
-
-/* Medium Devices, Desktops */
-
-/* Large Devices, Wide Screens */
 
 .button {
   display: inline-block;
@@ -2995,7 +2962,9 @@ body {
 
 .main__pink {
   background-image: url(../img/backgrounds/main_right.png);
-  background-position: center left no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center left;
   background-repeat: no-repeat; }
 
 .main__content {
@@ -3018,8 +2987,6 @@ body {
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 
-/* Medium Devices, Desktops */
-
 /* Small Devices, Tablets */
 
 /* Extra Small Devices, Phones */
@@ -3041,20 +3008,14 @@ body {
   /**/
   /**/
   /**/
-  /**/
-  /**/
   /**/ }
 
 @media only screen and (min-width: 480px) {
   /**/
   /**/
-  /**/
-  /**/
   /**/ }
 
 @media only screen and (min-width: 768px) {
-  /**/
-  /**/
   /**/
   /**/
   /**/
@@ -3064,13 +3025,9 @@ body {
   /**/
   /**/
   /**/
-  /**/
-  /**/
   /**/ }
 
 @media only screen and (min-width: 1200px) {
-  /**/
-  /**/
   /**/
   /**/
   /**/
@@ -3160,21 +3117,47 @@ body {
 
 @media only screen and (max-width: 992px) {
   /**/
-  /**/
-  /**/
-  /**/
   /**/ }
 
 @media only screen and (max-width: 768px) {
   /**/
-  /**/
-  /**/
+  .outline__phone {
+    top: 20px;
+    left: 70px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.8vh; }
+  .outline__logo {
+    position: relative;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0); }
+  .outline__img {
+    height: 30px;
+    width: auto; }
+  .outline__social {
+    left: -10px;
+    bottom: 20px; }
+  .outline__adress {
+    bottom: 30px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    font-size: 1.8vh; }
+  .outline__time {
+    display: none; }
+  .section__blue {
+    width: 100vw; }
+  .section__pink {
+    display: none; }
   /**/
   /**/ }
 
 @media only screen and (max-width: 480px) {
-  /**/
-  /**/
   /**/
   /**/
   /**/ }
@@ -3182,13 +3165,37 @@ body {
 @media only screen and (max-width: 320px) {
   /**/
   /**/
-  /**/
-  /**/
   /**/ }
 
 @media only screen and (max-width: 1200px) {
   /**/
+  .outline__phone {
+    top: 30px;
+    left: 90px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.8vh; }
+  .outline__logo {
+    top: 30px; }
+  .outline__social {
+    left: -10px;
+    bottom: 20px; }
+  .outline__adress {
+    bottom: 30px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    font-size: 1.8vh; }
+  .outline__time {
+    display: none; }
+  .section__pink {
+    width: 21.72%; }
+  .section__blue {
+    width: 88.28%; }
   /**/
-  /**/
-  /**/
-  /**/ }
+  .main__pink {
+    background-image: none; }
+  .main__h1 {
+    font-size: 5.3vh;
+    width: 49vh; } }
