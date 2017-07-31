@@ -3207,7 +3207,16 @@ input:required:valid {
 input:focus:required:invalid {
   color: #fda5b1; }
 
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+.contacts {
+  background-image: url(../img/backgrounds/map_desktop.jpg);
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center center; }
+  .contacts__blue {
+    background-color: transparent; }
+  .contacts__pink {
+    background-color: transparent; }
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
   /**/
   .menu {
     width: 280px; }
@@ -3369,10 +3378,42 @@ input:focus:required:invalid {
     width: 25vw;
     font-size: 1vh; }
   /**/
-  /**/
-  /**/ }
-
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .form__container {
+    margin: auto;
+    -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+            transform: translateX(0%);
+    color: #fff;
+    width: 80%; }
+  .form__form {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #fff; }
+  .form__header {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    font-family: lora;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 23px; }
+  .form__text {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    width: 260px;
+    font-size: 12px;
+    line-height: 1.3; }
+  .form__input {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    width: 90%;
+    height: 34px;
+    font-size: 12px; }
+  .contacts {
+    background-image: url(../img/backgrounds/map_mobile.jpg); } }
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
   /**/
   .menu__wrapper {
     margin-top: 9vh;
@@ -3528,5 +3569,7 @@ input:focus:required:invalid {
     .personal__prof--12 {
       margin-bottom: 0; }
   /**/
-  /**/
-  /**/ }
+  .form__pink {
+    background-image: none; }
+  .contacts {
+    background-image: url(../img/backgrounds/map_tablet.jpg); } }
