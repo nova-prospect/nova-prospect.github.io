@@ -12,10 +12,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	
 
 	<!-- Chrome, Firefox OS and Opera -->
 	<meta name="theme-color" content="#fff">
@@ -23,6 +21,37 @@
 	<meta name="msapplication-navbutton-color" content="#fff">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+
+	<!-- Yandex.Metrika counter -->
+		<script type="text/javascript" >
+		    (function (d, w, c) {
+		        (w[c] = w[c] || []).push(function() {
+		            try {
+		                w.yaCounter45490869 = new Ya.Metrika({
+		                    id:45490869,
+		                    clickmap:true,
+		                    trackLinks:true,
+		                    accurateTrackBounce:true,
+		                    webvisor:true,
+		                    ecommerce:"dataLayer"
+		                });
+		            } catch(e) { }
+		        });
+
+		        var n = d.getElementsByTagName("script")[0],
+		            s = d.createElement("script"),
+		            f = function () { n.parentNode.insertBefore(s, n); };
+		        s.type = "text/javascript";
+		        s.async = true;
+		        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+		        if (w.opera == "[object Opera]") {
+		            d.addEventListener("DOMContentLoaded", f, false);
+		        } else { f(); }
+		    })(document, window, "yandex_metrika_callbacks");
+		</script>
+		<noscript><div><img src="https://mc.yandex.ru/watch/45490869" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
 
 </head>
 
@@ -40,19 +69,19 @@
 				
 				<div class="main__top">
 					<img src="img/Logo.svg" alt="Фитнес клуб ZARЯDKA" class="main__logo">
-					<a href="tel:+74956498278" class="main__phone">+7 (495) 649-82-78</a>
+					<a href="tel:+74956498278" class="main__phone">+7 (495) 110-47-61</a>
 				</div>
 
 				<div class="image">
 
 					<div class="image__container  image__container--active">
 						
-						<img src="img/boxer-1.png" alt="Фитнес клуб ZARЯDKA" class="image__boxer-1">
-						<img src="img/boxer-2.png" alt="Фитнес клуб ZARЯDKA" class="image__boxer-2">
-						<div class="image__boxing">
-							<span class="image__boxing--1">box</span>
+						<img src="img/girl-1.png" alt="Фитнес клуб ZARЯDKA" class="image__girl-1">
+						<img src="img/girl-2.png" alt="Фитнес клуб ZARЯDKA" class="image__girl-2">
+						<div class="image__burning">
+							<span class="image__burning--1">Fat</span>
 							<br>
-							<span class="image__boxing--2">ing</span>
+							<span class="image__burning--2">Burning</span>
 						</div>
 
 					</div>
@@ -68,21 +97,22 @@
 
 					<input class="form__input" type="text" name="Name" placeholder="Ваше имя..." required><br>
 					<input class="form__input" type="text" name="Phone" placeholder="Ваш телефон..." required><br>
-					<button class="form__button  button" type="submit">Отправить заявку</button>
+					<button class="form__button button" type="submit" onclick="yaCounter45490869.reachGoal('form-fat'); return true;">Отправить заявку</button>
 					<a href="#" class="form__return  button">Вернуться</a>
 				</form>
 
 				<div class="main__content">
-					<h1 class="main__header">Бесплатная тренировка по боксу для новичков и профессионалов</h1>
-					<span class="main__time">Только в эту среду в 19:00</span>
+					<h1 class="main__header">Бесплатная круговая<br>жиросжигающая<br>тренировка</h1>
+					<span class="main__time">Только в этот понедельник в 20:00</span>
 					<div class="main__services">
 						<img class="main__icon  main__icon--1" src="img/sauna.png" alt="Фитнес клуб ZARЯDKA"><span class="main__serv  main__serv--1">Бесплатное посещение банного комплекса</span><br>
 						<img class="main__icon  main__icon--2" src="img/eat.png" alt="Фитнес клуб ZARЯDKA"><span class="main__serv  main__serv--2">Бесплатное составление программы питания</span>
 					</div>
+					<span class="main__garanty">Гарантируем минимум -0,5 кг за посещение</span>
 					<a href="#" class="main__button  button">Записывайся, количество мест ограничено!</a>
 				</div>
 
-				<p class="main__adress">Новоясеневский проспект дом, 1, ТЦ "Спектр" 3-й этаж, фитнес-клуб "Зарядка"</p>
+				<p class="main__adress">Новоясеневский проспект дом, 1, ТЦ "Спектр"<br>3-й этаж, фитнес-клуб "Зарядка"</p>
 
 			</div>
 
