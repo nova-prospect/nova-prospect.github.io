@@ -332,6 +332,7 @@ body {
     color: #fff; }
 
 .form__button {
+  cursor: pointer;
   border: none;
   height: 6.5vh;
   padding: 0 4vw;
