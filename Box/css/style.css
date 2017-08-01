@@ -288,44 +288,6 @@ body {
       height: 13vw;
       width: 100%; }
 
-.form__succes {
-  display: none;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  z-index: 100; }
-  .form__succes ~ * {
-    -webkit-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    transition: all .5s ease; }
-  .form__succes--active ~ * {
-    opacity: .5;
-    -webkit-filter: blur(10px);
-            filter: blur(10px); }
-
-.form__thanks {
-  margin: auto;
-  text-align: center;
-  font-weight: 400;
-  font-size: 4.2vh;
-  line-height: 4.2vh;
-  height: 4.2vh; }
-
 .form__form {
   z-index: 10;
   position: absolute;
@@ -377,7 +339,17 @@ body {
   color: #fff;
   letter-spacing: 1px; }
   .form__button:hover {
-    padding: 0px 9vh; }
+    padding: 0px 7vh; }
+
+.form__return {
+  border: none;
+  background-color: #fff;
+  color: #000;
+  letter-spacing: 1px;
+  text-decoration: none;
+  outline: none; }
+  .form__return:hover {
+    padding: 0px 4vh; }
 
 input:required:valid {
   color: #fff; }
@@ -473,15 +445,33 @@ input:focus:required:invalid {
     -webkit-border-radius: 4px;
             border-radius: 4px; }
   .form__button {
+    margin-left: 12%;
     height: 6vh;
     -webkit-border-radius: 3px;
             border-radius: 3px;
+    letter-spacing: 0px;
     padding: 0 14vw;
-    width: 75vw;
     background-color: #fff;
     color: #111;
     font-size: 3vw; }
     .form__button:hover {
+      padding: 0px 7vw; }
+  .form__return {
+    margin-top: 7vh;
+    margin-left: 55%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    height: 5.8vh;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+    border: 2px solid #fff;
+    padding: 0 3vw;
+    background-color: transparent;
+    letter-spacing: 0px;
+    color: #fff;
+    font-size: 2.5vw; }
+    .form__return:hover {
       padding: 0px 7vw; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
