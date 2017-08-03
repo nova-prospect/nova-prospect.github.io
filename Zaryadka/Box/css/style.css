@@ -385,6 +385,11 @@ body {
   .form__return:hover::before, .form__return:hover::after, .form__return:active::before, .form__return:active::after {
     background-color: rgba(255, 255, 255, 0.8); }
 
+.form__text {
+  margin-top: 2vh;
+  font-size: 1.5vh;
+  line-height: 1.5; }
+
 input:required:valid {
   color: #fff; }
 
@@ -462,7 +467,7 @@ input:focus:required:invalid {
       left: 50%;
       font-size: 13vw; }
   .form__form {
-    width: 70vw;
+    width: 80vw;
     left: 10%; }
   .form__header {
     margin-bottom: 3vh;
@@ -479,7 +484,6 @@ input:focus:required:invalid {
     -webkit-border-radius: 4px;
             border-radius: 4px; }
   .form__button {
-    margin-left: 12%;
     height: 6vh;
     -webkit-border-radius: 3px;
             border-radius: 3px;
@@ -495,7 +499,7 @@ input:focus:required:invalid {
     outline: none;
     position: absolute;
     top: -9vh;
-    right: -14vw;
+    right: -5vw;
     z-index: 10;
     display: block;
     width: 50px;
@@ -531,7 +535,11 @@ input:focus:required:invalid {
           -ms-transform: rotate(-45deg);
               transform: rotate(-45deg); }
     .form__return:hover::before, .form__return:hover::after, .form__return:active::before, .form__return:active::after {
-      background-color: #222; } }
+      background-color: #222; }
+  .form__text {
+    margin-top: 2vh;
+    font-size: 1.2vh;
+    line-height: 1.5; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   /**/
@@ -611,7 +619,7 @@ input:focus:required:invalid {
       left: 55%;
       font-size: 13vw; }
   .form__form {
-    width: 60vw;
+    width: 58vw;
     left: 37%; }
   .form__header {
     margin-bottom: 3vh;
@@ -637,7 +645,7 @@ input:focus:required:invalid {
     outline: none;
     position: absolute;
     top: -6vh;
-    right: 2vw;
+    right: 0vw;
     z-index: 10;
     display: block;
     width: 50px;
@@ -675,4 +683,8 @@ input:focus:required:invalid {
           -ms-transform: rotate(-45deg);
               transform: rotate(-45deg); }
     .form__return:hover::before, .form__return:hover::after, .form__return:active::before, .form__return:active::after {
-      background-color: rgba(255, 255, 255, 0.8); } }
+      background-color: rgba(255, 255, 255, 0.8); }
+  .form__text {
+    margin-top: 2vh;
+    font-size: 1.3vh;
+    line-height: 1.5; } }

@@ -26,27 +26,41 @@
 		<div class="preloader__pulse"></div>
 	</div>
 
-	<div class="left">
+	<div class="yellow"></div>
+
+	<div class="container">
 		
-		<div class="left__top  top">
+		<div class="container__top  top">
 			<img src="img/logo.png" alt="Фитнес клуб ZARЯDKA" class="top__logo">
-			<a href="tel:+74956498148" class="top__phone">(495) 649-81-48</a>
+			<div class="top__div"><span class="top__span">Позвоните нам</span><a href="tel:+74991103923" class="top__phone">+7 (499) 110-39-23</a></div>
 		</div>
 
-		<div class="left__content  content  content--active">
-			<h1 class="content__header">Не пропустите<br>уникальное<br>предложение!</h1>
-			<div class="content__line"></div>
-			<p class="content__text">У вас есть возможность посетить бесплатную функциональную<br>тренировку в группе «Кросс-тренинг», пройти диагностику<br>состава тела и получить рекомендации по достижению<br>поставленных целей от нашего опытного тренера.</p>
-			<span class="content__time">Только в эту среду в 20:00</span>
-			<a href="#" class="content__button  button">Записаться на занятие</a>
+		<div class="container__content  content  content--active">
+			<h1 class="content__header">Бесплатная функциональная<br>тренировка в группе "Кросс-<br>тренинг" от опытного тренера</h1>
+			<div class="content__time">
+				<div class="content__line"></div>
+				<span class="content__clock">Только в эту среду в 20:00</span>
+			</div>
+			<div class="content__services">
+				<div class="content__serv-div content__serv-div--1">
+					<img class="content__icon  content__icon--1" src="img/body.png" alt="Фитнес клуб ZARЯDKA">
+					<span class="content__serv  content__serv--1">Диагностика состава вашего тела</span>
+				</div>
+				<div class="content__serv-div content__serv-div--2">
+					<img class="content__icon  content__icon--2" src="img/target.png" alt="Фитнес клуб ZARЯDKA">
+					<span class="content__serv  content__serv--2">Рекомендации по достижению целей</span>
+				</div>
+			</div>
+			<a href="#" class="content__button  button">Записывайся, количество мест ограничено!</a>
 		</div>
 
-		<span class="left__adress">ул. Адмирала Макарова, 6, стр. 13, ТГ «Невский причал», 3 этаж</span>
+		<p class="container__adress">ул. Адмирала Макарова, 6, стр. 13,<br>ТГ «Невский причал», 3 этаж<br>4 минуты от м. Водный стадион.</p>
 
 		<div class="form  form--close">
 			<a href="#" class="form__close"></a>
 			<form class="form__form">
 				<h2 class="form__header">Записывайся, количество<br>мест ограничено!</h2>
+				<div class="form__line"></div><br>
 
 				<input type="hidden" name="project_name" value="Фитнес клуб ZARЯDKA">
 				<input type="hidden" name="admin_email" value="Zaryadkaclub@gmail.com">
@@ -55,13 +69,15 @@
 				<input class="form__input" type="text" name="Name" placeholder="Ваше имя..." required><br>
 				<input class="form__input" type="text" name="Phone" placeholder="Ваш телефон..." required><br>
 				<button class="form__button  button" type="submit" onclick="">Отправить заявку</button>
+				<p class="form__text">Отправляя данные вашего номера телефона или адреса электронной почты, Вы автоматически даете согласие на обработку персональных данных и отправку информационно-рекламных сообщений.</p>
+
 			</form>
 		</div>
 
 	</div>
 
-	<div class="right">
-		<img src="img/image.png" alt="Фитнес клуб ZARЯDKA" class="right__image">
+	<div class="image">
+		<img src="img/image.png" alt="Фитнес клуб ZARЯDKA" class="image__image">
 	</div>
 	
 	<link rel="stylesheet" href="css/style.min.css">
