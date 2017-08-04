@@ -34,10 +34,6 @@
   src: url("../fonts/OpenSans/OpenSans-Bold/OpenSans-Bold.eot");
   src: url("../fonts/OpenSans/OpenSans-Bold/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans/OpenSans-Bold/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans/OpenSans-Bold/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans/OpenSans-Bold/OpenSans-Bold.svg") format("svg"); }
 
-/*!
- *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
 /* FONT PATH
  * -------------------------- */
 @font-face {
