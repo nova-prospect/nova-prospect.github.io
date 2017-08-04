@@ -40,6 +40,9 @@ body {
   padding: 0;
   margin: 0; }
 
+button {
+  z-index: 10; }
+
 @-webkit-keyframes pulse-outer {
   0% {
     opacity: 1;
@@ -132,6 +135,7 @@ body {
   bottom: 0;
   right: 3vw; }
   .image__image {
+    width: 60vw;
     margin: 0;
     padding: 0;
     bottom: 0;
