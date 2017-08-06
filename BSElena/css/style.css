@@ -2830,6 +2830,10 @@ body {
         -ms-transform: translateX(-50%);
             transform: translateX(-50%);
     font-size: 2vh; }
+    .outline__adress-link {
+      outline: none;
+      text-decoration: none;
+      color: #fff; }
   .outline__time {
     position: absolute;
     z-index: 100;
@@ -3681,81 +3685,41 @@ body {
   color: #fff;
   width: 100%; }
 
-.form__succes {
-  display: none;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  z-index: 100; }
-  .form__succes ~ * {
-    -webkit-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    transition: all .5s ease; }
-  .form__succes--active ~ * {
-    opacity: .5;
-    -webkit-filter: blur(10px);
-            filter: blur(10px); }
-
-.form__thanks {
-  margin: auto;
-  font-family: lora;
-  font-weight: 700;
-  font-style: italic;
-  font-size: 40px;
-  line-height: 40px;
-  height: 40px; }
-
 .form__form {
   margin: 0;
   padding: 0;
-  width: 400px;
+  width: 42vh;
   color: #fff; }
 
 .form__header {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 3vh;
   padding: 0;
   font-family: lora;
   font-weight: 700;
   font-style: italic;
-  font-size: 30px; }
+  font-size: 3vh; }
 
 .form__text {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 3vh;
   padding: 0;
-  width: 410px;
+  width: 42vh;
   font-family: lora;
   font-weight: 500;
   font-style: italic;
-  font-size: 20px; }
+  font-size: 2vh;
+  line-height: 1.3; }
 
 .form__input {
-  margin-bottom: 20px;
-  padding-left: 20px;
+  margin-bottom: 2vh;
+  padding-left: 2vh;
   width: 100%;
-  height: 46px;
+  height: 4.6vh;
   outline: none;
   background-color: #55cfe1;
-  border: 2px solid #fff;
-  font-size: 14px; }
+  border: 0.2vh solid #fff;
+  font-size: 1.4vh; }
   .form__input::-webkit-input-placeholder {
     color: #fff;
     opacity: 1; }
@@ -3766,7 +3730,8 @@ body {
     color: #fff; }
 
 .form__button {
-  border: none; }
+  border: none;
+  cursor: pointer; }
 
 input:required:valid {
   color: #fff; }
@@ -4047,25 +4012,25 @@ input:focus:required:invalid {
     color: #fff; }
   .form__header {
     margin: 0;
-    margin-bottom: 15px;
+    margin-bottom: 2vh;
     padding: 0;
     font-family: lora;
     font-weight: 700;
     font-style: italic;
-    font-size: 23px; }
+    font-size: 3.2vh; }
   .form__text {
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
     padding: 0;
-    width: 260px;
-    font-size: 12px;
-    line-height: 1.3; }
+    width: 41vh;
+    font-size: 1.7vh;
+    line-height: 1.5; }
   .form__input {
-    margin-bottom: 10px;
-    padding-left: 15px;
+    margin-bottom: 2vh;
+    padding-left: 2vh;
     width: 90%;
-    height: 34px;
-    font-size: 12px; }
+    height: 4.5vh;
+    font-size: 1.6vh; }
   .contacts {
     background-image: url(../img/backgrounds/map_mobile.jpg); } }
   @media only screen and (min-width: 768px) and (max-width: 1199px) {
