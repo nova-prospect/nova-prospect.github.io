@@ -1,23 +1,23 @@
 @font-face {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-style: normal;
+  font-family: 'Roboto';
   src: url("../fonts/Roboto-Regular/Roboto-Regular.eot");
-  src: url("../fonts/Roboto-Regular/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular/Roboto-Regular.ttf") format("truetype"), url("../fonts/Roboto-Regular/Roboto-Regular.svg") format("svg"); }
+  src: url("../fonts/Roboto-Regular/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Regular/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular/Roboto-Regular.ttf") format("truetype"), url("../fonts/Roboto-Regular/Roboto-Regular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal; }
 
 @font-face {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-style: normal;
+  font-family: 'Roboto';
   src: url("../fonts/Roboto-Bold/Roboto-Bold.eot");
-  src: url("../fonts/Roboto-Bold/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold/Roboto-Bold.ttf") format("truetype"), url("../fonts/Roboto-Bold/Roboto-Bold.svg") format("svg"); }
+  src: url("../fonts/Roboto-Bold/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold/Roboto-Bold.ttf") format("truetype"), url("../fonts/Roboto-Bold/Roboto-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal; }
 
 @font-face {
-  font-family: "Roboto";
-  font-weight: 900;
-  font-style: normal;
+  font-family: 'Roboto';
   src: url("../fonts/Roboto-Black/Roboto-Black.eot");
-  src: url("../fonts/Roboto-Black/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Black/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Black/Roboto-Black.woff") format("woff"), url("../fonts/Roboto-Black/Roboto-Black.ttf") format("truetype"), url("../fonts/Roboto-Black/Roboto-Black.svg") format("svg"); }
+  src: url("../fonts/Roboto-Black/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Black/Roboto-Black.woff") format("woff"), url("../fonts/Roboto-Black/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Black/Roboto-Black.ttf") format("truetype"), url("../fonts/Roboto-Black/Roboto-Black.svg") format("svg");
+  font-weight: 900;
+  font-style: normal; }
 
 html, body {
   height: 100%;
@@ -34,7 +34,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   opacity: 1;
-  background-color: #fff;
+  background-color: #111;
   color: #000; }
 
 @-webkit-keyframes pulse-outer {
@@ -114,18 +114,19 @@ body {
       -webkit-animation: pulse-inner .8s linear infinite;
               animation: pulse-inner .8s linear infinite; }
 
-.button {
+button {
   display: block;
   text-decoration: none;
   margin: 0;
-  width: 100%;
+  width: 90%;
+  height: 6vh;
   background-color: #111;
   color: #fff;
   outline: none;
   text-align: center;
+  font-family: Roboto;
   font-size: 1.8vh;
-  font-weight: 400;
-  line-height: 6vh; }
+  font-weight: 400; }
 
 .main {
   display: -webkit-box;
@@ -149,7 +150,14 @@ body {
     height: 5vh; }
   .main__phone {
     position: absolute;
-    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     top: 4vh;
     right: 4vw;
     padding: 0;
@@ -158,12 +166,10 @@ body {
     .main__phone--span {
       display: inline-block;
       margin-right: 0.7vw;
-      line-height: 4vh;
       font-size: 1.8vh;
       font-weight: 400; }
     .main__phone--phone {
       display: inline-block;
-      line-height: 5vh;
       font-weight: 900;
       font-size: 2.8vh;
       color: #000; }
@@ -180,7 +186,7 @@ body {
     margin: 0;
     margin-top: 2vh;
     padding: 0;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 4.8vh;
     line-height: 1.2;
     color: #fff; }
@@ -253,10 +259,6 @@ body {
     -webkit-transition: width .5s ease;
     -o-transition: width .5s ease;
     transition: width .5s ease; }
-    .main__click:hover {
-      width: 37vh; }
-  .main__button {
-    margin-bottom: 1.5vh; }
   .main__document {
     display: block;
     margin: 0;
@@ -275,20 +277,10 @@ body {
     line-height: 1.4;
     text-align: right;
     color: #fff; }
+  .main button {
+    margin-bottom: 1.5vh; }
   @media only screen and (min-width: 320px) and (max-width: 767px) {
   /**/
-  .button {
-    display: block;
-    text-decoration: none;
-    margin: 0;
-    width: 100%;
-    background-color: #111;
-    color: #fff;
-    outline: none;
-    text-align: center;
-    font-size: 1.8vh;
-    font-weight: 400;
-    line-height: 6vh; }
   .main {
     background-image: url(../img/bg_mobile.jpg); }
     .main__logo {
@@ -346,18 +338,6 @@ body {
       font-size: 1.6vh; } }
   @media only screen and (min-width: 768px) and (max-width: 1199px) {
   /**/
-  .button {
-    display: block;
-    text-decoration: none;
-    margin: 0;
-    width: 100%;
-    background-color: #111;
-    color: #fff;
-    outline: none;
-    text-align: center;
-    font-size: 1.8vh;
-    font-weight: 400;
-    line-height: 6vh; }
   .main {
     background-image: url(../img/bg_tablet.jpg); }
     .main__logo {
