@@ -15,3 +15,28 @@ void 0!==c?null===c?void r.removeAttr(a,b):e&&"set"in e&&void 0!==(d=e.set(a,c,b
 $(window).on('load', function() {
   $('.preloader').delay(1000).fadeOut('slow');
 })
+
+$(function() {
+	
+	var button = document.querySelector('.main__button');
+	var close = document.querySelector('.form__close');
+	var form = document.querySelector('.form');
+	var content = document.querySelector('.main__content');
+
+	button.addEventListener('click', function() {
+		if (content.classList.contains('main__content--active')) {
+			content.classList.remove('main__content--active');
+			form.classList.remove('form--hidden');
+			form.classList.add('form--active');
+		}
+	});
+
+	close.addEventListener('click', function() {
+		if (form.classList.contains('form--active')) {
+			form.classList.remove('form--active');
+			form.classList.add('form--hidden');
+			content.classList.add('main__content--active');
+		}
+	});
+
+});
