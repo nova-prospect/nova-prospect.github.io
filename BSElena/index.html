@@ -17,11 +17,8 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
 
-	<!-- Chrome, Firefox OS and Opera -->
 	<meta name="theme-color" content="#fff">
-	<!-- Windows Phone -->
 	<meta name="msapplication-navbutton-color" content="#fff">
-	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
 
 </head>
@@ -41,161 +38,90 @@
 			
 			<div class="menu__wrapper">
 				<ul class="menu__ul">
-					<li class="menu__li"><a class="menu__a" href="#section1">Главная</a></li>
-					<li class="menu__li"><a class="menu__a" href="#section2">О салоне</a></li>
-					<li class="menu__li">
-						<a class="menu__a" href="#services">Услуги салона</a>
+					<li class="menu__li" data-menuanchor="page0"><a class="menu__a" href="#page0">Главная</a></li>
+					<li class="menu__li" data-menuanchor="page1"><a class="menu__a" href="#page1">О салоне</a></li>
+					<li class="menu__li" data-menuanchor="page2">
+						<a class="menu__a" href="#page2">Услуги салона</a>
 						<div class="menu-small">
 							<ul class="menu-small__ul">
-								<li class="menu-small__li"><a class="menu-small__a" href="#section3">Парикмахерский сервис</a></li>
-								<li class="menu-small__li"><a class="menu-small__a" href="#section4">Косметические процедуры</a></li>
-								<li class="menu-small__li"><a class="menu-small__a" href="#section5">Ногтевой сервис</a></li>
-								<li class="menu-small__li"><a class="menu-small__a" href="#section6">Косметический уход по телу</a></li>
-								<li class="menu-small__li"><a class="menu-small__a" href="#section7">Лечение волос</a></li>
-								<li class="menu-small__li"><a class="menu-small__a" href="#section8">Эстетическое удаление волос</a></li>
-								<li class="menu-small__li"><a class="menu-small__a" href="#section9">Вертикальный солярий</a></li>
+								<li class="menu-small__li" data-menuanchor="page2"><a class="menu-small__a" href="#page2">Парикмахерский сервис</a></li>
+								<li class="menu-small__li" data-menuanchor="page3"><a class="menu-small__a" href="#page3">Косметические процедуры</a></li>
+								<li class="menu-small__li" data-menuanchor="page4"><a class="menu-small__a" href="#page4">Ногтевой сервис</a></li>
+								<li class="menu-small__li" data-menuanchor="page5"><a class="menu-small__a" href="#page5">Косметический уход по телу</a></li>
+								<li class="menu-small__li" data-menuanchor="page6"><a class="menu-small__a" href="#page6">Лечение волос</a></li>
+								<li class="menu-small__li" data-menuanchor="page7"><a class="menu-small__a" href="#page7">Эстетическое удаление волос</a></li>
+								<li class="menu-small__li" data-menuanchor="page8"><a class="menu-small__a" href="#page8">Вертикальный солярий</a></li>
 							</ul>
 						</div>
 					</li>
-					<li class="menu__li"><a class="menu__a" href="#section10">Отзывы</a></li>
-					<li class="menu__li"><a class="menu__a" href="#section11">Мастера</a></li>
-					<li class="menu__li"><a class="menu__a" href="#section12">Косметика</a></li>
-					<li class="menu__li"><a class="menu__a" href="#section13">Записаться</a></li>
-					<li class="menu__li"><a class="menu__a" href="#section14">Контакты</a></li>
+					<li class="menu__li" data-menuanchor="page9"><a class="menu__a" href="#page9">Отзывы</a></li>
+					<li class="menu__li" data-menuanchor="page10"><a class="menu__a" href="#page10">Мастера</a></li>
+					<li class="menu__li" data-menuanchor="page11"><a class="menu__a" href="#page11">Косметика</a></li>
+					<li class="menu__li" data-menuanchor="page12"><a class="menu__a" href="#page12">Записаться</a></li>
+					<li class="menu__li" data-menuanchor="page13"><a class="menu__a" href="#page13">Контакты</a></li>
 				</ul>
 			</div>
 
 		</nav>
 
-	<!--============================== Внешние элементы ==============================-->
-		<div class="outline">
-			
-			<div class="outline__phone">+7 (812) 752-19-15</div>
+	<!--============================== Внешние элементы ==============================-->		
+		<div class="outline__phone"><a class="outline__phone--a" href="tel:88127521915">+7 (812) 752-19-15</a></div>
 
-			<div class="outline__logo">
+		<div class="outline__logo">
+			<a data-menuanchor="page0" href="#page0">
 				<img class="outline__img" src="img/icons/Logo.png" alt="Салон красоты Елена">
-			</div>
-
-			<div class="outline__mail">
-				<div class="outline__mail-wrapper">
-					<span class="outline__mail-1">B-S-Elena@ya.ru</span>
-					<span class="outline__mail-2">7521915@mail.ru</span>
-				</div>
-			</div>
-
-			<div class="outline__social">
-				<ul class="outline__social-ul">
-					<li class="outline__social-li"><a href="#" class="outline__social-a"><i class="fa  fa-vk"></i></a></li>
-					<li class="outline__social-li"><a href="#" class="outline__social-a"><i class="fa  fa-instagram"></i></a></li>
-					<li class="outline__social-li"><a href="#" class="outline__social-a"><i class="fa  fa-facebook"></i></a></li>
-				</ul>
-			</div>
-
-			<div class="outline__adress"><a href="#contacts" class="outline__adress-link">СПб, Проспект Ветеранов, д. 53/56</a></div>
-
-			<div class="outline__time">Ежедневно с 9:00 до 21:00</div>
-
+			</a>
 		</div>
 
+		<div class="outline__mail">
+			<div class="outline__mail-wrapper">
+				<span class="outline__mail-1">B-S-Elena@ya.ru</span>
+				<span class="outline__mail-2">7521915@mail.ru</span>
+			</div>
+		</div>
+
+		<div class="outline__social">
+			<ul class="outline__social-ul">
+				<li class="outline__social-li"><a href="#" class="outline__social-a"><i class="fa  fa-vk"></i></a></li>
+				<li class="outline__social-li"><a href="#" class="outline__social-a"><i class="fa  fa-instagram"></i></a></li>
+				<li class="outline__social-li"><a href="#" class="outline__social-a"><i class="fa  fa-facebook"></i></a></li>
+			</ul>
+		</div>
+
+		<div class="outline__adress"><a data-menuanchor="page13" href="#page13" class="outline__adress-link">СПб, Проспект Ветеранов, д. 53/56</a></div>
+
+		<div class="outline__time">Ежедневно с 9:00 до 21:00</div>
+
 	<!--====================================== Навигация ======================================-->
-		<nav class="main-slider__nav">
-			<ul class="main-slider__ul">
-				<li class="main-slider__li  main-slider__li--1">
-					<a class="main-slider__nav-link  main-slider__nav-link--1" href="#section1" data-number="1">
-						<span class="main-slider__label">Салон Елена</span>
-						<span class="main-slider__dot">01</span>
-					</a>
-				</li>
-				<li class="main-slider__li  main-slider__li--2">
-					<a class="main-slider__nav-link  main-slider__nav-link--2" href="#section2" data-number="2">
-						<span class="main-slider__label">О салоне</span>
-						<span class="main-slider__dot">02</span>
-					</a>
-				</li>
-				<li class="main-slider__li  main-slider__li--3">
-					<a class="main-slider__nav-link  main-slider__nav-link--3" href="#section3" data-number="3">
-						<span class="main-slider__label">Парикмахерский сервис</span>
-						<span class="main-slider__dot">03</span>
-					</a>
-				</li>
-				<li class="main-slider__li  main-slider__li--4">
-					<a class="main-slider__nav-link  main-slider__nav-link--4" href="#section4" data-number="4">
-						<span class="main-slider__label">Косметические процедуры</span>
-						<span class="main-slider__dot">04</span>
-					</a>
-				</li>
-				<li class="main-slider__li  main-slider__li--5">
-					<a class="main-slider__nav-link  main-slider__nav-link--5" href="#section5" data-number="5">
-						<span class="main-slider__label">Ногтевой сервис</span>
-						<span class="main-slider__dot">05</span>
-					</a>
-				</li>
-				<li class="main-slider__li  main-slider__li--6">
-					<a class="main-slider__nav-link  main-slider__nav-link--6" href="#section6" data-number="6">
-						<span class="main-slider__label">Уход по телу</span>
-						<span class="main-slider__dot">06</span>
-					</a>
-				</li>
-				<li class="main-slider__li  main-slider__li--6">
-					<a class="main-slider__nav-link  main-slider__nav-link--6" href="#section7" data-number="7">
-						<span class="main-slider__label">Лечение волос</span>
-						<span class="main-slider__dot">07</span>
-					</a>
-				</li>
-				<li class="main-slider__li  main-slider__li--6">
-					<a class="main-slider__nav-link  main-slider__nav-link--6" href="#section8" data-number="8">			
-						<span class="main-slider__label">Эстетическое удаление волос</span>
-						<span class="main-slider__dot">08</span>
-					</a>
-				</li>
-				<li class="main-slider__li  main-slider__li--6">
-					<a class="main-slider__nav-link  main-slider__nav-link--6" href="#section9" data-number="9">
-						<span class="main-slider__label">Вертикальный солярий</span>
-						<span class="main-slider__dot">09</span>
-					</a>
-				</li>
-				<li class="main-slider__li  main-slider__li--6">
-					<a class="main-slider__nav-link  main-slider__nav-link--6" href="#section10" data-number="10">
-						<span class="main-slider__label">Отзывы</span>
-						<span class="main-slider__dot">10</span>
-					</a>
-				</li>
-				<li class="main-slider__li  main-slider__li--6">
-					<a class="main-slider__nav-link  main-slider__nav-link--6" href="#section11" data-number="11">
-						<span class="main-slider__label">Мастера</span>
-						<span class="main-slider__dot">11</span>
-					</a>
-				</li>
-				<li class="main-slider__li  main-slider__li--6">
-					<a class="main-slider__nav-link  main-slider__nav-link--6" href="#section12" data-number="12">
-						<span class="main-slider__label">Косметика</span>
-						<span class="main-slider__dot">12</span>
-					</a>
-				</li>
-				<li class="main-slider__li  main-slider__li--6">
-					<a class="main-slider__nav-link  main-slider__nav-link--6" href="#section13" data-number="13">
-						<span class="main-slider__label">Онлайн запись</span>
-						<span class="main-slider__dot">13</span>
-					</a>
-				</li>
-				<li class="main-slider__li  main-slider__li--6">
-					<a class="main-slider__nav-link  main-slider__nav-link--6" href="#section14" data-number="14">
-						<span class="main-slider__label">Контакты</span>
-						<span class="main-slider__dot">14</span>
-					</a>
-				</li>
+		<nav class="navigation">
+			<ul id="menu" class="__ul">
+				<li class="navigation__li" data-menuanchor="page0"><a class="navigation__a" href="#page0">01</a></li>
+				<li class="navigation__li" data-menuanchor="page1"><a class="navigation__a" href="#page1">02</a></li>
+				<li class="navigation__li" data-menuanchor="page2"><a class="navigation__a" href="#page2">03</a></li>
+				<li class="navigation__li" data-menuanchor="page3"><a class="navigation__a" href="#page3">04</a></li>
+				<li class="navigation__li" data-menuanchor="page4"><a class="navigation__a" href="#page4">05</a></li>
+				<li class="navigation__li" data-menuanchor="page5"><a class="navigation__a" href="#page5">06</a></li>
+				<li class="navigation__li" data-menuanchor="page6"><a class="navigation__a" href="#page6">07</a></li>
+				<li class="navigation__li" data-menuanchor="page7"><a class="navigation__a" href="#page7">08</a></li>
+				<li class="navigation__li" data-menuanchor="page8"><a class="navigation__a" href="#page8">09</a></li>
+				<li class="navigation__li" data-menuanchor="page9"><a class="navigation__a" href="#page9">10</a></li>
+				<li class="navigation__li" data-menuanchor="page10"><a class="navigation__a" href="#page10">11</a></li>
+				<li class="navigation__li" data-menuanchor="page11"><a class="navigation__a" href="#page11">12</a></li>
+				<li class="navigation__li" data-menuanchor="page12"><a class="navigation__a" href="#page12">13</a></li>
+				<li class="navigation__li" data-menuanchor="page13"><a class="navigation__a" href="#page13">14</a></li>
 			</ul>
 		</nav>
 
+	<div id="fullpage" class="fullpage-wrapper">
 
 	<!--============================== Главная ==============================-->
-		<section id="section1" class="main  section">
+		<div id="section0" class="main  section">
 				
 			<div class="main__blue  section__blue">
 				
 				<div class="main__content">
 					<h1 class="main__h1">Добро пожаловать в салон красоты</h1>
-					<a href="#section2" class="main__button  button">
+					<a data-menuanchor="page1" href="#page1" class="main__button  button">
 						<span class="button__span">Подробнее о салоне</span>
 						<i class="button__i  fa  fa-long-arrow-right"></i>
 					</a>
@@ -205,10 +131,10 @@
 
 			<div class="main__pink  section__pink"></div>
 
-		</section>
+		</div>
 
 	<!--=============================== О салоне ===============================-->
-		<section id="section2" class="about  section">
+		<div id="section1" class="about  section">
 			
 			<div class="about__blue  section__blue">
 				
@@ -221,10 +147,10 @@
 
 			<div class="about__pink  section__pink"></div>
 
-		</section>
+		</div>
 
 	<!--=============================== Парикмахерский сервис ===============================-->
-		<section id="section3" class="hair  section">
+		<div id="section2" class="hair  section">
 			
 			<div class="hair__blue  section__blue">
 				
@@ -232,435 +158,479 @@
 					
 					<div class="hair__slider">
 						
-						<div class="hair__slide  hair__slide--1  fade">
-							
-							<h3 class="hair__name  price-list__name">Длинные волосы (от 14 см)</h3>
+						<div class="hair__slide  hair__slide--1  slide" id="slide1">
 
-							<div class="hair__price-list  price-list__table">
+							<div class="hair__slide-container">
 
-								<div class="price-list__row">
-									<span class="price-list__service">Стрижка женская модельная</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1100 - 1500 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Стрижка модельная + укладка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1500 - 1700 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Стрижка креативная</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1200 - 1600 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Стрижка горячими ножницами</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1400 - 1800 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Фигурная сушка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">650 - 750 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Укладка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">950 - 1150 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Укладка Вечерняя</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1150 - 1400 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Укладка Диффузором</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1100 - 1300 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Укладка Стружка, Бигуди</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1650 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Химическая завивка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1700 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Окраска в один тон</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1100 - 1200 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Окраска прикорневой части</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">950 - 1150 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Окраска креативная</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">2500 - 4000 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Мелирование на шапочке</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1150 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Мелирование на фольге</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1650 - 1900 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Тонирование</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">800 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Американское колорирование</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">2150 - 2400 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Осветление блондораном</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1050 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Блондирующая смывка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1050 р.</span>
+								<h3 class="hair__name  price-list__name">Длинные волосы (от 14 см)</h3>
+
+								<div class="hair__price-list  price-list__table">
+
+									<div class="price-list__row">
+										<span class="price-list__service">Стрижка женская модельная</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1100 - 1500 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Стрижка модельная + укладка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1500 - 1700 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Стрижка креативная</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1200 - 1600 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Стрижка горячими ножницами</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1400 - 1800 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Фигурная сушка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">650 - 750 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Укладка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">950 - 1150 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Укладка Вечерняя</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1150 - 1400 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Укладка Диффузором</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1100 - 1300 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Укладка Стружка, Бигуди</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1650 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Химическая завивка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1700 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Окраска в один тон</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1100 - 1200 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Окраска прикорневой части</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">950 - 1150 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Окраска креативная</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">2500 - 4000 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Мелирование на шапочке</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1150 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Мелирование на фольге</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1650 - 1900 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Тонирование</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">800 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Американское колорирование</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">2150 - 2400 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Осветление блондораном</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1050 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Блондирующая смывка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1050 р.</span>
+									</div>
+
 								</div>
 
+								<span class="hair__quote  price-list__quote">* Цены на все виды окрасок указаны без стоимости препаратов и расходников</span>
+
+								<a class="hair__button  price-list__button  button" data-menuanchor="page12" href="#page12">
+									<span class="button__span">Онлайн запись</span>
+									<i class="button__i  fa  fa-long-arrow-right"></i>
+								</a>
+								
 							</div>
-
-							<span class="hair__quote  price-list__quote">* Цены на все виды окрасок указаны без стоимости препаратов и расходников</span>
 
 						</div>
 
-						<div class="hair__slide  hair__slide--2  fade">
+						<div class="hair__slide  hair__slide--2  slide" id="slide2">
 
-							<h3 class="hair__name  price-list__name">Средние волосы (от 7 до 14 см)</h3>
+							<div class="hair__slide-container">
 
-							<div class="hair__price-list  price-list__table">
+								<h3 class="hair__name  price-list__name">Средние волосы (от 7 до 14 см)</h3>
 
-								<div class="price-list__row">
-									<span class="price-list__service">Стрижка женская модельная</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1100 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Стрижка модельная + укладка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1150 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Стрижка креативная</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1250 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Стрижка горячими ножницами</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1300 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Фигурная сушка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">550 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Укладка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">800 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Укладка Вечерняя</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1000 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Укладка Диффузором</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1050 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Укладка Стружка, Бигуди</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1300 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Химическая завивка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1400 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Окраска в один тон</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1000 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Окраска прикорневой части</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">900 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Окраска креативная</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">2000 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Мелирование на шапочке</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">950 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Мелирование на фольге</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1300 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Тонирование</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">650 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Американское колорирование</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1650 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Осветление блондораном</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">900 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Блондирующая смывка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">900 р.</span>
+								<div class="hair__price-list  price-list__table">
+
+									<div class="price-list__row">
+										<span class="price-list__service">Стрижка женская модельная</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1100 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Стрижка модельная + укладка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1150 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Стрижка креативная</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1250 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Стрижка горячими ножницами</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1300 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Фигурная сушка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">550 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Укладка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">800 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Укладка Вечерняя</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1000 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Укладка Диффузором</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1050 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Укладка Стружка, Бигуди</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1300 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Химическая завивка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1400 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Окраска в один тон</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1000 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Окраска прикорневой части</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">900 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Окраска креативная</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">2000 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Мелирование на шапочке</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">950 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Мелирование на фольге</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1300 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Тонирование</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">650 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Американское колорирование</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1650 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Осветление блондораном</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">900 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Блондирующая смывка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">900 р.</span>
+									</div>
+
 								</div>
 
+								<span class="hair__quote  price-list__quote">* Цены на все виды окрасок указаны без стоимости препаратов и расходников</span>
+
+								<a class="hair__button  price-list__button  button" data-menuanchor="page12" href="#page12">
+									<span class="button__span">Онлайн запись</span>
+									<i class="button__i  fa  fa-long-arrow-right"></i>
+								</a>
+								
 							</div>
-
-							<span class="hair__quote  price-list__quote">* Цены на все виды окрасок указаны без стоимости препаратов и расходников</span>
 							
 						</div>
 
-						<div class="hair__slide  hair__slide--3  fade">
+						<div class="hair__slide  hair__slide--3  slide" id="slide3">
 
-							<h3 class="hair__name  price-list__name">Короткие волосы (до 7 см)</h3>
+							<div class="hair__slide-container">
+								
+								<h3 class="hair__name  price-list__name">Короткие волосы (до 7 см)</h3>
 
-							<div class="hair__price-list  price-list__table">
+								<div class="hair__price-list  price-list__table">
 
-								<div class="price-list__row">
-									<span class="price-list__service">Стрижка женская модельная</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">900 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Стрижка модельная + укладка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1050 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Стрижка креативная</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1100 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Стрижка горячими ножницами</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1100 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Фигурная сушка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">450 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Укладка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">700 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Укладка Вечерняя</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">800 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Химическая завивка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">900 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Окраска в один тон</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">800 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Окраска прикорневой части</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">800 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Окраска креативная</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1600 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Мелирование на шапочке</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">850 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Мелирование на фольге</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1050 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Тонирование</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">600 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Американское колорирование</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1350 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Осветление блондораном</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">800 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Блондирующая смывка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">800 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Стрижка челки</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">300 р.</span>
+									<div class="price-list__row">
+										<span class="price-list__service">Стрижка женская модельная</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">900 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Стрижка модельная + укладка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1050 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Стрижка креативная</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1100 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Стрижка горячими ножницами</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1100 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Фигурная сушка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">450 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Укладка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">700 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Укладка Вечерняя</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">800 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Химическая завивка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">900 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Окраска в один тон</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">800 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Окраска прикорневой части</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">800 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Окраска креативная</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1600 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Мелирование на шапочке</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">850 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Мелирование на фольге</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1050 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Тонирование</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">600 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Американское колорирование</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1350 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Осветление блондораном</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">800 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Блондирующая смывка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">800 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Стрижка челки</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">300 р.</span>
+									</div>
+
 								</div>
 
-							</div>
+								<span class="hair__quote  price-list__quote">* Цены на все виды окрасок указаны без стоимости препаратов и расходников</span>
 
-							<span class="hair__quote  price-list__quote">* Цены на все виды окрасок указаны без стоимости препаратов и расходников</span>
-							
-						</div>
-
-						<div class="hair__slide  hair__slide--4  fade">
-
-							<h3 class="hair__name  price-list__name">Мужские прически</h3>
-
-							<div class="hair__price-list  price-list__table">
-
-								<div class="price-list__row">
-									<span class="price-list__service">Модельная</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">750 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Машинкой</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">450 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Площадка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price"> 900 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Стрижка с укладкой</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">950 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Укладкой</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">400 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Усы</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">200 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Борода</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">300 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Борода + Усы</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">450 р.</span>
-								</div>
+								<a class="hair__button  price-list__button  button" data-menuanchor="page12" href="#page12">
+									<span class="button__span">Онлайн запись</span>
+									<i class="button__i  fa  fa-long-arrow-right"></i>
+								</a>
 
 							</div>
 							
 						</div>
 
-						<div class="hair__slide  hair__slide--5  fade">
+						<div class="hair__slide  hair__slide--4  slide" id="slide4">
 
-							<h3 class="hair__name  price-list__name">Визаж</h3>
+							<div class="hair__slide-container">
 
-							<div class="hair__price-list  price-list__table">
+								<h3 class="hair__name  price-list__name">Мужские прически</h3>
 
-								<div class="price-list__row">
-									<span class="price-list__service">Свадебный</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1500 р.</span>
+								<div class="hair__price-list  price-list__table">
+
+									<div class="price-list__row">
+										<span class="price-list__service">Модельная</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">750 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Машинкой</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">450 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Площадка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price"> 900 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Стрижка с укладкой</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">950 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Укладкой</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">400 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Усы</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">200 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Борода</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">300 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Борода + Усы</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">450 р.</span>
+									</div>
+
 								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Вечерний</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1300 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Дневной</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1000 р.</span>
-								</div>
+
+								<a class="hair__button  price-list__button  button" data-menuanchor="page12" href="#page12">
+									<span class="button__span">Онлайн запись</span>
+									<i class="button__i  fa  fa-long-arrow-right"></i>
+								</a>
 
 							</div>
 							
 						</div>
 
-						<div class="hair__slide  hair__slide--6  fade">
+						<div class="hair__slide  hair__slide--5  slide" id="slide5">
 
-							<h3 class="hair__name  price-list__name">Прически</h3>
+							<div class="hair__slide-container">
+								
+								<h3 class="hair__name  price-list__name">Визаж</h3>
 
-							<div class="hair__price-list  price-list__table">
+								<div class="hair__price-list  price-list__table">
 
-								<div class="price-list__row">
-									<span class="price-list__service">Плетение волос</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">от 850 р.</span>
+									<div class="price-list__row">
+										<span class="price-list__service">Свадебный</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1500 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Вечерний</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1300 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Дневной</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1000 р.</span>
+									</div>
+
 								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Прически</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1700 - 4000 р.</span>
-								</div>
+
+								<a class="hair__button  price-list__button  button" data-menuanchor="page12" href="#page12">
+									<span class="button__span">Онлайн запись</span>
+									<i class="button__i  fa  fa-long-arrow-right"></i>
+								</a>
 
 							</div>
-
-							<span class="hair__quote  price-list__quote">* Цена зависит от сложности</span>
 							
 						</div>
 
-					</div>
+						<div class="hair__slide  hair__slide--6  slide" id="slide6">
 
-					<a href="#section13" class="hair__button  button">
-						<span class="button__span">Онлайн запись</span>
-						<i class="button__i  fa  fa-long-arrow-right"></i>
-					</a>
+							<div class="hair__slide-container">
+								
+								<h3 class="hair__name  price-list__name">Прически</h3>
 
-					<div class="pink-arrows  hair__arrows">
-						<a class="pink-arrows__prev" onclick="plusSlides(-1)"><i class="fa fa-long-arrow-left"></i></a>
-						<a class="pink-arrows__next" onclick="plusSlides(1)"><i class="fa fa-long-arrow-right"></i></a>
+								<div class="hair__price-list  price-list__table">
+
+									<div class="price-list__row">
+										<span class="price-list__service">Плетение волос</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">от 850 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Прически</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1700 - 4000 р.</span>
+									</div>
+
+								</div>
+
+								<span class="hair__quote  price-list__quote">* Цена зависит от сложности</span>
+
+								<a class="hair__button  price-list__button  button" data-menuanchor="page12" href="#page12">
+									<span class="button__span">Онлайн запись</span>
+									<i class="button__i  fa  fa-long-arrow-right"></i>
+								</a>
+
+							</div>
+							
+						</div>
+
 					</div>
 
 				</div>
@@ -669,10 +639,10 @@
 
 			<div class="hair__pink  section__pink"></div>
 
-		</section>
+		</div>
 	
 	<!--=============================== Косметические процедуры ===============================-->
-		<section id="section4" class="face  section">
+		<div id="section3" class="face  section">
 			
 			<div class="face__blue  section__blue">
 				
@@ -680,138 +650,146 @@
 					
 					<div class="face__slider">
 						
-						<div class="face__slide  face__slide--1  fade">
-							
-							<h3 class="face__name  price-list__name">Уход за лицом</h3>
+						<div class="face__slide  face__slide--1  slide" id="slide1">
 
-							<div class="face__price-list  price-list__table">
+							<div class="face__slide-container">
+								
+								<h3 class="face__name  price-list__name">Уход за лицом</h3>
 
-								<div class="price-list__row">
-									<span class="price-list__service">Чистка Европейская</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">2000 - 2500 р.</span>
+								<div class="face__price-list  price-list__table">
+
+									<div class="price-list__row">
+										<span class="price-list__service">Чистка Европейская</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">2000 - 2500 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Чистка ультразвук + маска</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1500 - 2000 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Чистка ультразвук</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1000 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Уход лица без маски</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">800 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Уход лица + маска</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1000 - 3500 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Комплексный уход 90 минут</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1000 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Пилинг косметический</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1500 - 2000 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Маска для лица</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">300 - 1500 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Криоуход</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">700 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Коррекция бровей</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">400 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Окраска бровей</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">300 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Окраска бровей хной</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">400 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Окраска ресниц</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">300 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Комплекс Брови + Ресницы</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">800 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Комплекс Брови + Ресницы хной</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">900 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Специфические процедуры</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">от 1100 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Электроэпиляция 1 мин.</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">50 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Прокол ушей + серьги</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">700 р.</span>
+									</div>
+
 								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Чистка ультразвук + маска</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1500 - 2000 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Чистка ультразвук</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1000 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Уход лица без маски</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">800 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Уход лица + маска</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1000 - 3500 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Комплексный уход 90 минут</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1000 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Пилинг косметический</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1500 - 2000 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Маска для лица</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">300 - 1500 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Криоуход</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">700 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Коррекция бровей</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">400 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Окраска бровей</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">300 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Окраска бровей хной</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">400 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Окраска ресниц</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">300 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Комплекс Брови + Ресницы</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">800 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Комплекс Брови + Ресницы хной</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">900 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Специфические процедуры</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">от 1100 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Электроэпиляция 1 мин.</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">50 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Прокол ушей + серьги</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">700 р.</span>
-								</div>
+
+								<a data-menuanchor="page12" href="#page12" class="face__button  price-list__button  button">
+									<span class="button__span">Онлайн запись</span>
+									<i class="button__i  fa  fa-long-arrow-right"></i>
+								</a>
 
 							</div>
 
 						</div>
 
-						<div class="face__slide  face__slide--2  fade">
+						<div class="face__slide  face__slide--2  slide" id="slide2">
 
-							<h3 class="face__name  price-list__name">Наращивание ресниц</h3>
+							<div class="face__slide-container">
+								
+								<h3 class="face__name  price-list__name">Наращивание ресниц</h3>
 
-							<div class="face__price-list  price-list__table">
+								<div class="face__price-list  price-list__table">
 
-								<div class="price-list__row">
-									<span class="price-list__service">Классическое с загущением</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">3500 р.</span>
+									<div class="price-list__row">
+										<span class="price-list__service">Классическое с загущением</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">3500 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Биозавивка</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">2000 р.</span>
+									</div>
+
 								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Биозавивка</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">2000 р.</span>
-								</div>
 
+								<a data-menuanchor="page12" href="#page12" class="face__button  price-list__button  button">
+									<span class="button__span">Онлайн запись</span>
+									<i class="button__i  fa  fa-long-arrow-right"></i>
+								</a>
+								
 							</div>
 							
 						</div>
 
-					</div>
-
-					<a href="#section13" class="face__button  button">
-						<span class="button__span">Онлайн запись</span>
-						<i class="button__i  fa  fa-long-arrow-right"></i>
-					</a>
-
-					<div class="face__arrows  pink-arrows">
-						<a class="pink-arrows__prev" onclick="plusSlides(-1)"><i class="fa fa-long-arrow-left"></i></a>
-						<a class="pink-arrows__next" onclick="plusSlides(1)"><i class="fa fa-long-arrow-right"></i></a>
 					</div>
 
 				</div>
@@ -820,10 +798,10 @@
 
 			<div class="face__pink  section__pink"></div>
 
-		</section>
+		</div>
 
 	<!--=============================== Ногтевой сервис ===============================-->
-		<section id="section5" class="manicure  section">
+		<div id="section4" class="manicure  section">
 			
 			<div class="manicure__blue  section__blue">
 				
@@ -831,207 +809,215 @@
 					
 					<div class="manicure__slider">
 						
-						<div class="manicure__slide  face__slide--1  fade">
+						<div class="manicure__slide  manicure__slide--1  slide" id="slide1">
 							
-							<h3 class="manicure__name  price-list__name">Маникюр</h3>
+							<div class="manicure__slide-container">
+								
+								<h3 class="manicure__name  price-list__name">Маникюр</h3>
 
-							<div class="manicure__price-list  price-list__table">
+								<div class="manicure__price-list  price-list__table">
 
-								<div class="price-list__row">
-									<span class="price-list__service">Без покрытия</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">750 р.</span>
+									<div class="price-list__row">
+										<span class="price-list__service">Без покрытия</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">750 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">С покрытием лаком</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">800 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">С покрытием Гель-лак</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1600 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">С покрытием Френч</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">950 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">С покрытием Г/Л Френч</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1800 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">С покрытием Vinilux</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1000 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Бразильский маникюр</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">900 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Маникюр IBX System</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1100 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Маникюр укрепление Gelish</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1100 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">СПА уход (скраб, маска)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">700 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Уход классический</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">450 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">С покрытием Гель-лак</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1600 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Придание формы</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">300 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Парафиновые ванночки</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">400 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Снятие лака</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">200 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Снятие гель-лака</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">500 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Ремонт одного ногтя</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">200 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Выравнивание ногтевой пластины</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">500 р.</span>
+									</div>
+
 								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">С покрытием лаком</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">800 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">С покрытием Гель-лак</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1600 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">С покрытием Френч</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">950 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">С покрытием Г/Л Френч</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1800 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">С покрытием Vinilux</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1000 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Бразильский маникюр</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">900 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Маникюр IBX System</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1100 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Маникюр укрепление Gelish</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1100 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">СПА уход (скраб, маска)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">700 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Уход классический</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">450 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">С покрытием Гель-лак</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1600 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Придание формы</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">300 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Парафиновые ванночки</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">400 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Снятие лака</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">200 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Снятие гель-лака</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">500 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Ремонт одного ногтя</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">200 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Выравнивание ногтевой пластины</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">500 р.</span>
-								</div>
+
+								<span class="manicure__quote  price-list__quote">* Стоимость указана с маникюром</span>
+
+								<a class="manicure__button  price-list__button  button" data-menuanchor="page12" href="#page12">
+									<span class="button__span">Онлайн запись</span>
+									<i class="button__i  fa  fa-long-arrow-right"></i>
+								</a>
 
 							</div>
 
-							<span class="manicure__quote  price-list__quote">* Стоимость указана с маникюром</span>
-
 						</div>
 
-						<div class="manicure__slide  manicure__slide--2  fade">
+						<div class="manicure__slide  manicure__slide--2  slide" id="slide2">
 
-							<h3 class="manicure__name  price-list__name">Педикюр</h3>
+							<div class="manicure__slide-container">
+								
+								<h3 class="manicure__name  price-list__name">Педикюр</h3>
 
-							<div class="manicure__price-list  price-list__table">
+								<div class="manicure__price-list  price-list__table">
 
-								<div class="price-list__row">
-									<span class="price-list__service">Без покрытия</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1300 р.</span>
+									<div class="price-list__row">
+										<span class="price-list__service">Без покрытия</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1300 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">С покрытием лаком</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1500 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">С покрытием Гель-лак</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">2500 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">С покрытием Френч</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1700 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">С покрытием Г/Л Френч</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">2600 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">С покрытием Vinilux</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1700 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Бразильский педикюр</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1600 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">СПА уход (скраб, маска)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">800 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Тайский релакс уход</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1000 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Парафиновые ванночки</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">500 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Снятие лака</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">200 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Снятие гель-лака</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">500 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Удаление мозолей</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">100 - 600 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Удаление натоптышей, трещин</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">100 - 600 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Вросший ноготь (1 ед.)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">250 р.</span>
+									</div>
+
 								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">С покрытием лаком</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1500 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">С покрытием Гель-лак</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">2500 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">С покрытием Френч</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1700 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">С покрытием Г/Л Френч</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">2600 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">С покрытием Vinilux</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1700 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Бразильский педикюр</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1600 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">СПА уход (скраб, маска)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">800 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Тайский релакс уход</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1000 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Парафиновые ванночки</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">500 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Снятие лака</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">200 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Снятие гель-лака</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">500 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Удаление мозолей</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">100 - 600 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Удаление натоптышей, трещин</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">100 - 600 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Вросший ноготь (1 ед.)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">250 р.</span>
-								</div>
+
+								<span class="manicure__quote  price-list__quote">* Стоимость указана с педикюром</span>
+
+								<a class="manicure__button  price-list__button  button" data-menuanchor="page12" href="#page12">
+									<span class="button__span">Онлайн запись</span>
+									<i class="button__i  fa  fa-long-arrow-right"></i>
+								</a>
 
 							</div>
-
-							<span class="manicure__quote  price-list__quote">* Стоимость указана с педикюром</span>
 							
 						</div>
 
-					</div>
-
-					<a href="#section13" class="manicure__button  button">
-						<span class="button__span">Онлайн запись</span>
-						<i class="button__i  fa  fa-long-arrow-right"></i>
-					</a>
-
-					<div class="manicure__arrows  pink-arrows">
-						<a class="pink-arrows__prev" onclick="plusSlides(-1)"><i class="fa fa-long-arrow-left"></i></a>
-						<a class="pink-arrows__next" onclick="plusSlides(1)"><i class="fa fa-long-arrow-right"></i></a>
 					</div>
 
 				</div>
@@ -1040,10 +1026,10 @@
 
 			<div class="manicure__pink  section__pink"></div>
 
-		</section>
+		</div>
 
 	<!--=============================== Косметический уход по телу ===============================-->
-		<section id="section6" class="body  section">
+		<div id="section5" class="body  section">
 			
 			<div class="body__blue  section__blue">
 				
@@ -1051,109 +1037,126 @@
 					
 					<div class="body__slider">
 						
-						<div class="body__slide  body__slide--1  fade">
-							
-							<h3 class="body__name  price-list__name">Уход по телу</h3>
+						<div class="body__slide  body__slide--1  slide" id="slide1">
 
-							<div class="body__price-list  price-list__table">
+							<div class="body__slide-container">
+								
+								<h3 class="body__name  price-list__name">Уход по телу</h3>
 
-								<div class="price-list__row">
-									<span class="price-list__service">Ручной общий</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1700 - 2000 р.</span>
+								<div class="body__price-list  price-list__table">
+
+									<div class="price-list__row">
+										<span class="price-list__service">Ручной общий</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1700 - 2000 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Ручной шейно-воротниковой зоны</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">600 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Ручной спина + шея</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1000 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Ручной уход рук</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">500 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Ручной уход живота</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">500 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Ручной антицеллюлитный</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1100 р.</span>
+									</div>
+
 								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Ручной шейно-воротниковой зоны</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">600 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Ручной спина + шея</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1000 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Ручной уход рук</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">500 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Ручной уход живота</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">500 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Ручной антицеллюлитный</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1100 р.</span>
-								</div>
+
+								<a data-menuanchor="page12" href="#page12" class="body__button  price-list__button  button">
+									<span class="button__span">Онлайн запись</span>
+									<i class="button__i  fa  fa-long-arrow-right"></i>
+								</a>
 
 							</div>
 
 						</div>
 
-						<div class="body__slide  body__slide--2  fade">
+						<div class="body__slide  body__slide--2  slide" id="slide2">
 
-							<h3 class="body__name  price-list__name">Антицеллюлитный вакуумный уход</h3>
+							<div class="body__slide-container">
+								
+								<h3 class="body__name  price-list__name">Антицеллюлитный вакуумный уход</h3>
 
-							<div class="body__price-list  price-list__table">
+								<div class="body__price-list  price-list__table">
 
-								<div class="price-list__row">
-									<span class="price-list__service">Бёдра</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">600 р.</span>
+									<div class="price-list__row">
+										<span class="price-list__service">Бёдра</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">600 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Спина</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">600 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Спина до лопаток + живот + бедра</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1000 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Спина полностью + живот + бедра</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1100 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Спина до лопаток + живот + бедра + руки</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1300 р.</span>
+									</div>
+
 								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Спина</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">600 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Спина до лопаток + живот + бедра</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1000 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Спина полностью + живот + бедра</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1100 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Спина до лопаток + живот + бедра + руки</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1300 р.</span>
-								</div>
+
+								<a data-menuanchor="page12" href="#page12" class="body__button  price-list__button  button">
+									<span class="button__span">Онлайн запись</span>
+									<i class="button__i  fa  fa-long-arrow-right"></i>
+								</a>
 
 							</div>
 							
 						</div>
 
-						<div class="body__slide  body__slide--3  fade">
+						<div class="body__slide  body__slide--3  slide" id="slide3">
 
-							<h3 class="body__name  price-list__name">Обёртывание</h3>
+							<div class="body__slide-container">
+								
+								<h3 class="body__name  price-list__name">Обёртывание</h3>
 
-							<div class="body__price-list  price-list__table">
+								<div class="body__price-list  price-list__table">
 
-								<div class="price-list__row">
-									<span class="price-list__service">1 час процедуры</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1600 - 2000 р.</span>
+									<div class="price-list__row">
+										<span class="price-list__service">1 час процедуры</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1600 - 2000 р.</span>
+									</div>
+
 								</div>
+
+								<a data-menuanchor="page12" href="#page12" class="body__button  price-list__button  button">
+									<span class="button__span">Онлайн запись</span>
+									<i class="button__i  fa  fa-long-arrow-right"></i>
+								</a>
 
 							</div>
 							
 						</div>
 
-					</div>
-
-					<a href="#section13" class="body__button  button">
-						<span class="button__span">Онлайн запись</span>
-						<i class="button__i  fa  fa-long-arrow-right"></i>
-					</a>
-
-					<div class="body__arrows  pink-arrows">
-						<a class="pink-arrows__prev" onclick="plusSlides(-1)"><i class="fa fa-long-arrow-left"></i></a>
-						<a class="pink-arrows__next" onclick="plusSlides(1)"><i class="fa fa-long-arrow-right"></i></a>
 					</div>
 
 				</div>
@@ -1162,10 +1165,10 @@
 
 			<div class="body__pink  section__pink"></div>
 
-		</section>
+		</div>
 
 	<!--=============================== Лечение волос ===============================-->
-		<section id="section7" class="keratin  section">
+		<div id="section6" class="keratin  section">
 			
 			<div class="keratin__blue  section__blue">
 				
@@ -1173,216 +1176,242 @@
 					
 					<div class="keratin__slider">
 						
-						<div class="keratin__slide  keratin__slide--1  fade">
-							
-							<h3 class="keratin__name  price-list__name">Кератиндоз</h3>
+						<div class="keratin__slide  keratin__slide--1  slide" id="slide1">
 
-							<p class="price-list__text">Лечение и восстановление волос при помощи комплекса<br>Pro-keratin и экстракта шелка. Pro-keratin при регулярном<br>использовании восстанавливает структуру, делая волосы<br>более плотными. Волосы станут менее ломкими и сухими.</p>
+							<div class="keratin__slide-container">
+								
+								<h3 class="keratin__name  price-list__name">Кератиндоз</h3>
 
-							<h4 class="price-list__table-name">Лечение</h4>
+								<p class="price-list__text">Лечение и восстановление волос при помощи комплекса<br>Pro-keratin и экстракта шелка. Pro-keratin при регулярном<br>использовании восстанавливает структуру, делая волосы<br>более плотными. Волосы станут менее ломкими и сухими.</p>
 
-							<div class="keratin__price-list  price-list__table">
+								<h4 class="price-list__table-name">Лечение</h4>
 
-								<div class="price-list__row">
-									<span class="price-list__service">Короткие волосы (до 7 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">900 р.</span>
+								<div class="keratin__price-list  price-list__table">
+
+									<div class="price-list__row">
+										<span class="price-list__service">Короткие волосы (до 7 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">900 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Средние волосы (от 7 до 14 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1200 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Длинные волосы (от 14 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">от 1500 р.</span>
+									</div>
+
 								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Средние волосы (от 7 до 14 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1200 р.</span>
+
+								<h4 class="price-list__table-name">В комплексе с окраской или стрижкой</h4>
+
+								<div class="keratin__price-list  price-list__table">
+
+									<div class="price-list__row">
+										<span class="price-list__service">Короткие волосы (до 7 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">500 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Средние волосы (от 7 до 14 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">700 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Длинные волосы (от 14 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">от 900 р.</span>
+									</div>
+
 								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Длинные волосы (от 14 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">от 1500 р.</span>
-								</div>
+
+								<a data-menuanchor="page12" href="#page12" class="keratin__button  price-list__button  button">
+									<span class="button__span">Онлайн запись</span>
+									<i class="button__i  fa  fa-long-arrow-right"></i>
+								</a>
 
 							</div>
 
-							<h4 class="price-list__table-name">В комплексе с окраской или стрижкой</h4>
+						</div>
 
-							<div class="keratin__price-list  price-list__table">
+						<div class="keratin__slide  keratin__slide--2 slide" id="slide2">
 
-								<div class="price-list__row">
-									<span class="price-list__service">Короткие волосы (до 7 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">500 р.</span>
+							<div class="keratin__slide-container">
+								
+								<h3 class="keratin__name  price-list__name">Ламинирование</h3>
+
+								<p class="price-list__text  price-list__text--lamination">Процедура ламинирования сделает Ваши волосы шелковистыми<br>и струящимися, придаст им роскошный блеск, плотность и<br>дополнительный объем. А цветное ламинирование позволит<br>вам поэксперементировать с различными новыми оттенками<br>ваших волос, не травмируя их, а наоборот, оздоравливая.</p>
+
+								<div class="keratin__price-list  price-list__table">
+
+									<div class="price-list__row">
+										<span class="price-list__service">Короткие волосы (до 7 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1600 - 1800 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Средние волосы (от 7 до 14 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">2100 - 2300 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Длинные волосы (от 14 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">2600 - 2800 р.</span>
+									</div>
+
 								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Средние волосы (от 7 до 14 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">700 р.</span>
+
+								<span class="keratin__quote  price-list__quote  price-list__quote--lamination">* Услуга включает в себя окрашивание и сушку волос без стоимости препарата.</span>
+
+								<a data-menuanchor="page12" href="#page12" class="keratin__button  price-list__button  button">
+									<span class="button__span">Онлайн запись</span>
+									<i class="button__i  fa  fa-long-arrow-right"></i>
+								</a>
+
+							</div>
+
+						</div>
+
+						<div class="keratin__slide  keratin__slide--3  slide" id="slide3">
+
+							<div class="keratin__slide-container">
+								
+								<h3 class="keratin__name  price-list__name">OlaPlex</h3>
+
+								<p class="price-list__text">Восстановление и защита структуры волос. Инновационный<br>продукт для профессионального ухода за волосами.</p>
+
+								<h4 class="price-list__table-name">Защита во время окраски любой сложности</h4>
+
+								<div class="keratin__price-list  price-list__table">
+
+									<div class="price-list__row">
+										<span class="price-list__service">Короткие волосы (до 10 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1000 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Средние волосы (от 10 до 20 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1000 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Длинные волосы (от 20 до 45 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">от 1300 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Очень длинные волосы (от 45 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">от 2300 р.</span>
+									</div>
+
 								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Длинные волосы (от 14 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">от 900 р.</span>
+
+								<span class="keratin__quote  price-list__quote  price-list__quote--olaplex">* В стоимость услуги не входит краситель и расходный материал.</span>
+
+								<h4 class="price-list__table-name">Восстановление и лечение поврежденных волос</h4>
+
+								<div class="keratin__price-list  price-list__table">
+
+									<div class="price-list__row">
+										<span class="price-list__service">Короткие волосы (до 10 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1800 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Средние волосы (от 10 до 20 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">1800 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Длинные волосы (от 20 до 45 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">от 2200 р.</span>
+									</div>
+									<div class="price-list__row">
+										<span class="price-list__service">Очень длинные волосы (от 45 см)</span>
+										<div class="price-list__dotted"></div>
+										<span class="price-list__price">от 3300 р.</span>
+									</div>
+
+								</div>
+
+								<span class="keratin__quote  price-list__quote">* В стоимость процедуры входит OLAPLEX + укладка.</span>
+
+								<a data-menuanchor="page12" href="#page12" class="keratin__button  price-list__button  button">
+									<span class="button__span">Онлайн запись</span>
+									<i class="button__i  fa  fa-long-arrow-right"></i>
+								</a>
+
+							</div>
+
+							<div class="keratin__slide  keratin__slide-body  slide" id="slide4">
+
+								<div class="keratin__slide-container">
+
+									<h3 class="keratin__name  price-list__name">Сахарный скраб - Shugarshine</h3>
+
+									<p class="price-list__text">— Запечатывает влагу в структуре волос<br>— Разглаживает поверхность волос<br>— Бережно удаляет загрязнения<br>— Глубоко увлажняет</p>
+
+									<h4 class="price-list__table-name">В комплексе со стрижкой или окраской</h4>
+
+									<div class="keratin__price-list  price-list__table">
+
+										<div class="price-list__row">
+											<span class="price-list__service">Короткие волосы (до 7 см)</span>
+											<div class="price-list__dotted"></div>
+											<span class="price-list__price">600 р.</span>
+										</div>
+										<div class="price-list__row">
+											<span class="price-list__service">Средние волосы (от 7 до 14 см)</span>
+											<div class="price-list__dotted"></div>
+											<span class="price-list__price">700 р.</span>
+										</div>
+										<div class="price-list__row">
+											<span class="price-list__service">Длинные волосы (от 14 см)</span>
+											<div class="price-list__dotted"></div>
+											<span class="price-list__price">800 - 1200 р.</span>
+										</div>
+
+									</div>
+
+									<h4 class="price-list__table-name">Shugarshine уход</h4>
+
+									<div class="keratin__price-list  price-list__table">
+
+										<div class="price-list__row">
+											<span class="price-list__service">Короткие волосы (до 7 см)</span>
+											<div class="price-list__dotted"></div>
+											<span class="price-list__price">1050 р.</span>
+										</div>
+										<div class="price-list__row">
+											<span class="price-list__service">Средние волосы (от 7 до 14 см)</span>
+											<div class="price-list__dotted"></div>
+											<span class="price-list__price">1250 р.</span>
+										</div>
+										<div class="price-list__row">
+											<span class="price-list__service">Длинные волосы (от 14 см)</span>
+											<div class="price-list__dotted"></div>
+											<span class="price-list__price">от 1550 р.</span>
+										</div>
+
+									</div>
+
+									<a data-menuanchor="page12" href="#page12" class="keratin__button  price-list__button  button">
+										<span class="button__span">Онлайн запись</span>
+										<i class="button__i  fa  fa-long-arrow-right"></i>
+									</a>
+
 								</div>
 
 							</div>
 
 						</div>
 
-						<div class="keratin__slide  keratin__slide--2  fade">
-							
-							<h3 class="keratin__name  price-list__name">Ламинирование</h3>
-
-							<p class="price-list__text">Процедура ламинирования сделает Ваши волосы шелковистыми<br>и струящимися, придаст им роскошный блеск, плотность и<br>дополнительный объем. А цветное ламинирование позволит<br>вам поэксперементировать с различными новыми оттенками<br>ваших волос, не травмируя их, а наоборот, оздоравливая.</p>
-
-							<div class="keratin__price-list  price-list__table">
-
-								<div class="price-list__row">
-									<span class="price-list__service">Короткие волосы (до 7 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1600 - 1800 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Средние волосы (от 7 до 14 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">2100 - 2300 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Длинные волосы (от 14 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">2600 - 2800 р.</span>
-								</div>
-
-							</div>
-
-							<span class="keratin__quote  price-list__quote">* Услуга включает в себя окрашивание и сушку волос без стоимости препарата.</span>
-
-						</div>
-
-						<div class="keratin__slide  keratin__slide--3  fade">
-							
-							<h3 class="keratin__name  price-list__name">OlaPlex</h3>
-
-							<p class="price-list__text">Восстановление и защита структуры волос. Инновационный<br>продукт для профессионального ухода за волосами.</p>
-
-							<h4 class="price-list__table-name">Защита во время окраски любой сложности</h4>
-
-							<div class="keratin__price-list  price-list__table">
-
-								<div class="price-list__row">
-									<span class="price-list__service">Короткие волосы (до 10 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1000 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Средние волосы (от 10 до 20 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1000 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Длинные волосы (от 20 до 45 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">от 1300 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Очень длинные волосы (от 45 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">от 2300 р.</span>
-								</div>
-
-							</div>
-
-							<span class="keratin__quote  price-list__quote  price-list__quote--olaplex">* В стоимость услуги не входит краситель и расходный материал.</span>
-
-							<h4 class="price-list__table-name">Восстановление и лечение поврежденных волос</h4>
-
-							<div class="keratin__price-list  price-list__table">
-
-								<div class="price-list__row">
-									<span class="price-list__service">Короткие волосы (до 10 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1800 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Средние волосы (от 10 до 20 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1800 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Длинные волосы (от 20 до 45 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">от 2200 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Очень длинные волосы (от 45 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">от 3300 р.</span>
-								</div>
-
-							</div>
-
-							<span class="keratin__quote  price-list__quote">* В стоимость процедуры входит OLAPLEX + укладка.</span>
-
-						</div>
-
-						<div class="keratin__slide  keratin__slide-body">
-							
-							<h3 class="keratin__name  price-list__name">Сахарный скраб - Shugarshine</h3>
-
-							<p class="price-list__text">— Разглаживает поверхность волос<br>— Бережно удаляет загрязнения<br>— Глубоко увлажняет<br>— Запечатывает влагу в структуре волос</p>
-
-							<h4 class="price-list__table-name">В комплексе со стрижкой или окраской</h4>
-
-							<div class="keratin__price-list  price-list__table">
-
-								<div class="price-list__row">
-									<span class="price-list__service">Короткие волосы (до 7 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">600 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Средние волосы (от 7 до 14 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">700 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Длинные волосы (от 14 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">800 - 1200 р.</span>
-								</div>
-
-							</div>
-
-							<h4 class="price-list__table-name">Shugarshine уход</h4>
-
-							<div class="keratin__price-list  price-list__table">
-
-								<div class="price-list__row">
-									<span class="price-list__service">Короткие волосы (до 7 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1050 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Средние волосы (от 7 до 14 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">1250 р.</span>
-								</div>
-								<div class="price-list__row">
-									<span class="price-list__service">Длинные волосы (от 14 см)</span>
-									<div class="price-list__dotted"></div>
-									<span class="price-list__price">от 1550 р.</span>
-								</div>
-
-							</div>
-
-						</div>
-
-					</div>
-
-					<a href="#section13" class="keratin__button  button">
-						<span class="button__span">Онлайн запись</span>
-						<i class="button__i  fa  fa-long-arrow-right"></i>
-					</a>
-
-					<div class="keratin__arrows  pink-arrows">
-						<a class="pink-arrows__prev" onclick="plusSlides(-1)"><i class="fa fa-long-arrow-left"></i></a>
-						<a class="pink-arrows__next" onclick="plusSlides(1)"><i class="fa fa-long-arrow-right"></i></a>
 					</div>
 
 				</div>
@@ -1391,10 +1420,10 @@
 
 			<div class="keratin__pink  section__pink"></div>
 
-		</section>
+		</div>
 
 	<!--========================== Эстетическое удаление волос ==========================-->
-		<section id="section8" class="skin  section">
+		<div id="section7" class="skin  section">
 			
 			<div class="skin__blue  section__blue">
 				
@@ -1404,9 +1433,9 @@
 						
 						<div class="skin__slide  skin__slide--1  fade">
 							
-							<h3 class="skin__name  price-list__name">Эстетическое удаление волос для женщин</h3>
+							<h3 class="skin__name  price-list__name  price-list__name--skin">Эстетическое удаление волос для женщин</h3>
 
-							<h4 class="price-list__table-name">Только по вторникам скидка на депиляцию 20%</h4>
+							<h4 class="price-list__table-name  price-list__table-name--skin">Только по вторникам скидка на депиляцию 20%</h4>
 
 							<div class="skin__price-list  price-list__table">
 
@@ -1459,7 +1488,7 @@
 
 					</div>
 
-					<a href="#section13" class="skin__button  button">
+					<a data-menuanchor="page12" href="#page12" class="skin__button  price-list__button  button">
 						<span class="button__span">Онлайн запись</span>
 						<i class="button__i  fa  fa-long-arrow-right"></i>
 					</a>
@@ -1470,10 +1499,10 @@
 
 			<div class="skin__pink  section__pink"></div>
 
-		</section>
+		</div>
 
 	<!--=============================== Вертикальный солярий ===============================-->
-		<section id="section9" class="solarium  section">
+		<div id="section8" class="solarium  section">
 			
 			<div class="solarium__blue  section__blue">
 				
@@ -1499,7 +1528,7 @@
 
 					</div>
 
-					<a href="#section13" class="solarium__button  button">
+					<a data-menuanchor="page12" href="#page12" class="solarium__button  price-list__button  button">
 						<span class="button__span">Онлайн запись</span>
 						<i class="button__i  fa  fa-long-arrow-right"></i>
 					</a>
@@ -1510,10 +1539,10 @@
 
 			<div class="solarium__pink  section__pink"></div>
 
-		</section>
+		</div>
 
 	<!--=============================== Отзывы ===============================-->
-		<section id="section10" class="reviews  section">
+		<div id="section9" class="reviews  section">
 			
 			<div class="reviews__blue  section__blue">
 				
@@ -1526,7 +1555,7 @@
 								<h3 class="reviews__name">Алёна</h3>
 								<span class="reviews__date">28.09.15</span>
 							</div>
-							<p class="reviews__text">Здравствуйте. Не так давно сама сожгла себе волосы и стала заново отращивать. Корни отросли сантиметров на 5-7, но концы были ужасно непонятного цвета. Мне нужно было их окрасить не трогая корни, чтобы они сильно не выделялись, а были ближе к натуральному цвету. Я слышала только об окраске корней, а не концов волос, и не знала, сколько примерно будет стоить, если вообще есть такая процедура)) Обратилась в салон Елена, и девочки прекрасно справились с моей проблемой. Теперь все выглядит гармонично и нет ничего лишнего.</p>
+							<p class="reviews__text">Здравствуйте. Не так давно сама сожгла себе волосы<br class="reviews__br--mob-landscape"><br class="reviews__br--tab-landscape"><br class="reviews__br--mob-portrait"> и стала заново<br class="reviews__br--tab-portrait"><br class="reviews__br--desktop"> отращивать. Корни отросли сантиметров<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> на 5-7, но концы были ужасно<br class="reviews__br--tab-portrait"><br class="reviews__br--desktop"> непонятного цвета. Мне<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> нужно было их окрасить не трогая корни,<br class="reviews__br--tab-portrait"> чтобы<br class="reviews__br--desktop"> они<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> сильно не выделялись, а были ближе к натуральному<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> цвету.<br class="reviews__br--tab-portrait"> Я<br class="reviews__br--desktop"> слышала только об окраске корней, а не концов<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> волос, и не знала,<br class="reviews__br--tab-portrait"><br class="reviews__br--desktop"> сколько примерно будет стоить, если<br class="reviews__br--mob-landscape"><br class="reviews__br--tab-landscape"><br class="reviews__br--mob-portrait"> вообще есть такая процедура))<br class="reviews__br--tab-portrait"><br class="reviews__br--desktop"> Обратилась в салон<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> Елена, и девочки прекрасно справились с моей<br class="reviews__br--tab-portrait"><br class="reviews__br--desktop"> проблемой.<br class="reviews__br--mob-landscape"><br class="reviews__br--tab-landscape"> Теперь все выглядит гармонично и нет ничего лишнего.</p>
 						</div>
 
 						<div class="reviews__slide  reviews__slide--2  fade">
@@ -1534,7 +1563,7 @@
 								<h3 class="reviews__name">Юлия</h3>
 								<span class="reviews__date">16.01.16</span>
 							</div>
-							<p class="reviews__text">Хочу выразить огромную благодарность косметологу Ане! У нее золотые ручки. Ходила к ней несколько раз на нити и на уколы гиалуронки. Как правило, у многих косметологов после данных процедур на клиентах проявляются синяки. После процедур, проведенных у Анечки, синяков практически не было. На следующий день после нитей смело шла на работу, и следов не было вообще! Очень аккуратная работа. Никому, кроме нее, свое лицо больше не доверю.</p>
+							<p class="reviews__text">Хочу выразить огромную благодарность косметологу Ане!<br class="reviews__br--tab-landscape"> У нее<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-portrait"> золотые<br class="reviews__br--desktop"> ручки. Ходила к ней несколько раз на нити<br class="reviews__br--tab-landscape"> и на уколы<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-portrait"> гиалуронки. Как<br class="reviews__br--desktop"> правило, у многих косметологов<br class="reviews__br--tab-landscape"> после данных<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-portrait"> процедур на клиентах<br class="reviews__br--desktop"> проявляются синяки.<br class="reviews__br--tab-landscape"> После процедур,<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-portrait"> проведенных у Анечки, синяков<br class="reviews__br--desktop"> почти<br class="reviews__br--tab-landscape"> не было. На следующий<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-portrait"> день после нитей смело шла<br class="reviews__br--tab-landscape"> на работу,<br class="reviews__br--desktop"> и следов не было<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-portrait"> вообще! Очень аккуратная<br class="reviews__br--tab-landscape"> работа. Никому, кроме<br class="reviews__br--desktop"> нее, свое<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-portrait"> лицо больше не доверю.</p>
 						</div>
 
 						<div class="reviews__slide  reviews__slide--3  fade">
@@ -1542,15 +1571,15 @@
 								<h3 class="reviews__name">Артём</h3>
 								<span class="reviews__date">04.03.16</span>
 							</div>
-							<p class="reviews__text">Здравствуйте! Я пришел в салон за необычной прической, так как у брата в этот день была свадьба, а я свидетель. Необходимо было обращать на себя внимание и запомниться надолго, особенно прелестным гостям противоположного пола. Придя в салон, попал в кресло к парикмахеру стилисту Марии. Она сразу определила, что кокретно мне подойдет, чтобы одновременно и стильно, и мужественно. Был очень доволен ее работой, прическа получилась огонь. Большое спасибо салону за помощь.</p>
+							<p class="reviews__text">Здравствуйте! Я пришел в салон за необычной прической,<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> так как<br class="reviews__br--tab-portrait"> у брата<br class="reviews__br--desktop"> в этот день была свадьба, а я свидетель.<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> Необходимо было<br class="reviews__br--tab-portrait"> обращать<br class="reviews__br--desktop"> на себя внимание и надолго<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> запомниться, особенно<br class="reviews__br--tab-portrait"> прелестным гостям<br class="reviews__br--desktop"> женского пола.<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> Придя в салон, попал в кресло<br class="reviews__br--tab-portrait"> к парикмахеру стилисту<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--desktop"> Марии. Она сразу определила, что кокретно<br class="reviews__br--tab-portrait"> мне подойдет,<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> чтобы<br class="reviews__br--desktop"> одновременно и стильно, и мужественно. Был<br class="reviews__br--tab-portrait"> очень<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> доволен ее<br class="reviews__br--desktop"> работой, прическа получилась огонь. Большое<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-portrait"><br class="reviews__br--tab-landscape"> спасибо салону<br class="reviews__br--desktop"> за помощь.</p>
 						</div>
 
-						<div class="reviews__slide  reviews__slide--4  fade">
+						<div class="reviews__slide  reviews__slide--4  fade"><br class="reviews__br--desktop">
 							<div class="reviews__top">
-								<h3 class="reviews__name">Вероника</h3>
+								<h3 class="reviews__name">Вероника</h3><br class="reviews__br--desktop">
 								<span class="reviews__date">24.07.16</span>
 							</div>
-							<p class="reviews__text">Хочу поблагодарить отличного мастера-парикмахера Ольгу Иванову. Хожу к ней уже прилично много времени. Всегда меня выслушает и посоветует, как правильно воплотить мои мысли. Хотя идеи у меня дикие (перекрасить черный цвет волос в ярко - фиолетовый без обесцвечивания, к примеру))))) Сегодня была на очередной окраске. Очень довольна))))) Спасибо большое.</p>
+							<p class="reviews__text">Хочу поблагодарить отличного мастера-парикмахера Ольгу<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> Иванову.<br class="reviews__br--tab-portrait"><br class="reviews__br--desktop"> Хожу к ней уже прилично много времени. Всегда<br class="reviews__br--tab-landscape"> меня<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"> выслушает<br class="reviews__br--tab-portrait"><br class="reviews__br--desktop"> и посоветует, как правильно воплотить<br class="reviews__br--tab-landscape"> мои мысли.<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"> Хотя идеи у меня<br class="reviews__br--tab-portrait"><br class="reviews__br--desktop"> дикие (перекрасить черный<br class="reviews__br--tab-landscape"> цвет волос в ярко<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"> - фиолетовый без<br class="reviews__br--tab-portrait"><br class="reviews__br--desktop"> обесцвечивания,<br class="reviews__br--tab-landscape"> к примеру))))) Сегодня была<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"> на очередной окраске.<br class="reviews__br--tab-portrait"><br class="reviews__br--desktop  reviews__br--tab-landscape"> Очень довольна))))) Спасибо большое.</p>
 						</div>
 
 						<div class="reviews__slide  reviews__slide--5  fade">
@@ -1558,7 +1587,7 @@
 								<h3 class="reviews__name">Карина</h3>
 								<span class="reviews__date">19.11.16</span>
 							</div>
-							<p class="reviews__text">Оставлю и я отзыв) Во-первых, всегда красивая и такая приятная администратор Елена. Улыбается, помогает и подсказывает. Когда на звонок отвечает она, я прям радуюсь.:) Очень хороший мастер по маникюру и педикюру Лиза Груздева. Хожу к ней много лет. Очень хороший парикмахер Ольга Земелько ,стригусь и крашусь у нее тоже много лет. Пробовала походить в другие салоны - не особо понравилось. Много болтают, я к парикмахеру иду стричь волосы,а не разговаривать о жизни или о мужиках.</p>
+							<p class="reviews__text">Оставлю и я отзыв) Во-первых, всегда красивая и такая<br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> приятная<br class="reviews__br--tab-portrait"><br class="reviews__br--desktop"> администратор Елена. Улыбается, помогает<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> и подсказывает. Когда<br class="reviews__br--tab-portrait"><br class="reviews__br--desktop"> на звонок отвечает она, я прям<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> радуюсь.:) Очень хороший мастер<br class="reviews__br--tab-portrait"><br class="reviews__br--desktop"> по маникюру<br class="reviews__br--mob-portrait"> и<br class="reviews__br--tab-landscape"> педикюру<br class="reviews__br--mob-landscape"> Лиза Груздева. Хожу к ней много лет.<br class="reviews__br--mob-portrait"><br class="reviews__br--tab-portrait"> Очень<br class="reviews__br--desktop"> хороший<br class="reviews__br--mob-landscape"> парикмахер Ольга Земелько, стригусь<br class="reviews__br--mob-portrait"> и крашусь<br class="reviews__br--tab-landscape"><br class="reviews__br--tab-landscape"><br class="reviews__br--tab-portrait"> у нее<br class="reviews__br--mob-landscape"> тоже<br class="reviews__br--desktop"> много лет. Пробовала походить<br class="reviews__br--mob-portrait"> в другие салоны<br class="reviews__br--mob-landscape"><br class="reviews__br--tab-portrait"><br class="reviews__br--tab-landscape"> - не особо понравилось.<br class="reviews__br--desktop"> Много<br class="reviews__br--mob-portrait"> болтают, я к парикмахеру<br class="reviews__br--mob-landscape"><br class="reviews__br--tab-landscape"> иду<br class="reviews__br--tab-portrait"> стричь волосы,<br class="reviews__br--mob-portrait"> а не разговаривать<br class="reviews__br--desktop"> о жизни или<br class="reviews__br--mob-landscape"><br class="reviews__br--tab-landscape"> о мужиках.</p>
 						</div>
 
 						<div class="reviews__slide  reviews__slide--6  fade">
@@ -1566,12 +1595,12 @@
 								<h3 class="reviews__name">Мария</h3>
 								<span class="reviews__date">15.02.17</span>
 							</div>
-							<p class="reviews__text">Добрый день! Хочу оставить отзыв о салоне. За зиму немного расслабилась и наела бока) Подумала, что надо срочно исправлять ситуацию. Пошла на процедуру антицеллюлитного вауумного ухода, так как находится рядом с домом. И не пожалела. Очень качественно проделанная работа, приятный сервис, душевная компания в процессе. Салон спас меня буквально за 3 процедуры. Спасибо Вам огромное!)</p>
-						</div>
+							<p class="reviews__text">Добрый день! Хочу оставить отзыв о салоне. За зиму<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> немного<br class="reviews__br--tab-portrait"><br class="reviews__br--desktop"> расслабилась и наела бока) Подумала, что<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> надо срочно исправлять<br class="reviews__br--tab-portrait"><br class="reviews__br--desktop"> ситуацию. Пошла на процедуру<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> антицеллюлитного вауумного ухода,<br class="reviews__br--tab-portrait"><br class="reviews__br--desktop"> так как находится<br class="reviews__br--mob-landscape"><br class="reviews__br--tab-landscape"><br class="reviews__br--mob-portrait"> рядом с домом. И не пожалела. Очень качественно<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-portrait"><br class="reviews__br--tab-landscape"><br class="reviews__br--desktop"> проделанная работа, приятный сервис, душевная<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> компания<br class="reviews__br--tab-portrait"> в процессе.<br class="reviews__br--desktop"> Салон спас меня буквально<br class="reviews__br--mob-landscape"><br class="reviews__br--mob-portrait"><br class="reviews__br--tab-landscape"> за 3 процедуры.<br class="reviews__br--tab-portrait"> Спасибо Вам огромное!)</p>
+						</div><br class="reviews__br--desktop">
 
 					</div>
 
-					<div class="pink-arrows  reviews__arrows">
+					<div class="reviews__arrows  pink-arrows">
 						<a class="pink-arrows__prev" onclick="plusSlides(-1)"><i class="fa fa-long-arrow-left"></i></a>
 						<a class="pink-arrows__next" onclick="plusSlides(1)"><i class="fa fa-long-arrow-right"></i></a>
 					</div>
@@ -1591,10 +1620,10 @@
 
 			<div class="reviews__pink  section__pink"></div>
 
-		</section>
+		</div>
 
 	<!--=============================== Мастера ===============================-->
-		<section id="section11" class="personal  section">
+		<div id="section10" class="personal  section">
 			
 			<div class="personal__blue  section__blue"></div>
 			<div class="personal__pink  section__pink"></div>
@@ -1675,10 +1704,10 @@
 
 			</div>
 
-		</section>
+		</div>
 
 	<!--=============================== Косметика ===============================-->
-		<section id="section12" class="cosmetic  section">
+		<div id="section11" class="cosmetic  section">
 				
 			<div class="cosmetic__blue  section__blue"></div>
 			<div class="cosmetic__pink  section__pink"></div>
@@ -1703,10 +1732,10 @@
 
 			</div>
 			
-		</section>
+		</div>
 
 	<!--=============================== Форма ===============================-->
-		<section id="section13" class="form  section">
+		<div id="section12" class="form  section">
 
 			<div class="form__blue section__blue">
 				
@@ -1736,15 +1765,17 @@
 
 			<div class="form__pink section__pink"></div>
 
-		</section>
+		</div>
 
 	<!--=============================== Контакты ===============================-->
-		<section id="section14" class="contacts  section">
+		<div id="section13" class="contacts  section">
 			
 			<div class="contacts__blue  section__blue"></div>
 			<div class="contacts__pink  section__pink"></div>
 
-		</section>
+		</div>
+
+	</div><!--================= Конец контейнера одноэкранного скролла =================-->
 
 
 	<link rel="stylesheet" href="css/style.min.css">
